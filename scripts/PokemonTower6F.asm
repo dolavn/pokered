@@ -1,6 +1,6 @@
 PokemonTower6F_Script:
 	call EnableAutoTextBoxDrawing
-	ld hl, PokemonTower6TrainerHeader0
+	ld hl, PokemonTower6TrainerHeaders
 	ld de, PokemonTower6F_ScriptPointers
 	ld a, [wPokemonTower6FCurScript]
 	call ExecuteCurMapScriptInTable
@@ -32,7 +32,7 @@ PokemonTower6Script0:
 	ld a, $6
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
-	ld a, MAROWAK
+	ld a, RESTLESS_SOUL
 	ld [wCurOpponent], a
 	ld a, 30
 	ld [wCurEnemyLVL], a
@@ -104,6 +104,8 @@ PokemonTower6F_TextPointers:
 	dw PokemonTower6Text6
 	dw PokemonTower6Text7
 
+PokemonTower6TrainerHeaders:
+	def_trainers
 PokemonTower6TrainerHeader0:
 	trainer EVENT_BEAT_POKEMONTOWER_6_TRAINER_0, 3, PokemonTower6BattleText1, PokemonTower6EndBattleText1, PokemonTower6AfterBattleText1
 PokemonTower6TrainerHeader1:
@@ -134,7 +136,7 @@ PokemonTower6Text7:
 	text_asm
 	ld hl, PokemonTower2Text_60c1f
 	call PrintText
-	ld a, MAROWAK
+	ld a, RESTLESS_SOUL
 	call PlayCry
 	call WaitForSoundToFinish
 	ld c, 30

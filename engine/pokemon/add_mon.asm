@@ -259,7 +259,7 @@ AddPartyMon_WriteMovePP:
 	push de
 	push bc
 	ld hl, Moves
-	ld bc, MoveEnd - Moves
+	ld bc, MOVE_LENGTH
 	call AddNTimes
 	ld de, wcd6d
 	ld a, BANK(Moves)
@@ -430,7 +430,7 @@ _MoveMon::
 	cp PARTY_TO_DAYCARE
 	ld de, wDayCareMonOT
 	jr z, .findOTsrc
-	dec a 
+	dec a
 	ld hl, wPartyMonOT
 	ld a, [wPartyCount]
 	jr nz, .addOToffset

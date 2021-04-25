@@ -11,7 +11,7 @@ TryEvolvingMon:
 ; this is only called after battle
 ; it is supposed to do level up evolutions, though there is a bug that allows item evolutions to occur
 EvolutionAfterBattle:
-	ldh a, [hTilesetType]
+	ldh a, [hTileAnimations]
 	push af
 	xor a
 	ld [wEvolutionOccurred], a
@@ -161,7 +161,7 @@ Evolution_PartyMonLoop: ; loop over party mons
 	ld a, [wd11e]
 	dec a
 	ld hl, BaseStats
-	ld bc, MonBaseStatsEnd - MonBaseStats
+	ld bc, BASE_DATA_SIZE
 	call AddNTimes
 	ld de, wMonHeader
 	call CopyData
@@ -245,7 +245,7 @@ Evolution_PartyMonLoop: ; loop over party mons
 	pop bc
 	pop hl
 	pop af
-	ldh [hTilesetType], a
+	ldh [hTileAnimations], a
 	ld a, [wLinkState]
 	cp LINK_STATE_TRADING
 	ret z
@@ -479,7 +479,7 @@ WriteMonMoves:
 	push hl
 	dec a
 	ld hl, Moves
-	ld bc, MoveEnd - Moves
+	ld bc, MOVE_LENGTH
 	call AddNTimes
 	ld de, wBuffer
 	ld a, BANK(Moves)

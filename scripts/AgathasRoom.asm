@@ -1,7 +1,7 @@
 AgathasRoom_Script:
 	call AgathaShowOrHideExitBlock
 	call EnableAutoTextBoxDrawing
-	ld hl, AgathaTrainerHeader0
+	ld hl, AgathasRoomTrainerHeaders
 	ld de, AgathasRoom_ScriptPointers
 	ld a, [wAgathasRoomCurScript]
 	call ExecuteCurMapScriptInTable
@@ -20,7 +20,7 @@ AgathaShowOrHideExitBlock:
 	jp .setExitBlock
 .blockExitToNextRoom
 	ld a, $3b
-.setExitBlock:
+.setExitBlock
 	ld [wNewTileBlockID], a
 	lb bc, 0, 2
 	predef_jump ReplaceTileBlock
@@ -120,13 +120,15 @@ AgathasRoom_TextPointers:
 	dw AgathaText1
 	dw AgathaDontRunAwayText
 
-AgathaTrainerHeader0:
+AgathasRoomTrainerHeaders:
+	def_trainers
+AgathasRoomTrainerHeader0:
 	trainer EVENT_BEAT_AGATHAS_ROOM_TRAINER_0, 0, AgathaBeforeBattleText, AgathaEndBattleText, AgathaAfterBattleText
 	db -1 ; end
 
 AgathaText1:
 	text_asm
-	ld hl, AgathaTrainerHeader0
+	ld hl, AgathasRoomTrainerHeader0
 	call TalkToTrainer
 	jp TextScriptEnd
 

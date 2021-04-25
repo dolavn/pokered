@@ -80,6 +80,7 @@
 	const CRED_FIND_US_AT_2   ; $4E
 	const CRED_GITHUB_LINK    ; $4F
 	const CRED_GITHUB_LINK_2  ; $50
+NUM_CRED_STRINGS EQU const_value
 
 	const_def -1, -1
 	const CRED_TEXT_FADE_MON ; $FF

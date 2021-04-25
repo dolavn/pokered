@@ -35,7 +35,7 @@ AnimateHealingMachine:
 	dec b
 	jr nz, .partyLoop
 	ld a, [wAudioROMBank]
-	cp BANK(Audio3_UpdateMusic)
+	cp BANK("Audio Engine 3")
 	ld [wAudioSavedROMBank], a
 	jr nz, .next
 	ld a, SFX_STOP_ALL_MUSIC
@@ -91,9 +91,9 @@ FlashSprite8Times:
 
 CopyHealingMachineOAM:
 ; copy one OAM entry and advance the pointers
-	REPT 4
+REPT 4
 	ld a, [de]
 	inc de
 	ld [hli], a
-	ENDR
+ENDR
 	ret

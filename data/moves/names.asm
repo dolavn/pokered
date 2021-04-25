@@ -1,166 +1,168 @@
 MoveNames::
-	db "חבטה@"        ; POUND
-	db "מכת קראטה@"   ; KARATE CHOP
-	db "כפל סטירה@"   ; DOUBLESLAP
-	db "אגרוףשביט@"   ; COMET PUNCH
-	db "אגרוף על@"    ; MEGA PUNCH
-	db "לוטו@"        ; PAY DAY
-	db "אגרוף אש@"    ; FIRE PUNCH
-	db "אגרוף קרח@"   ; ICE PUNCH
-	db "אגרוף רעם@"   ; THUNDERPUNCH
-	db "שריטה@"       ; SCRATCH
-	db "כליבה@"       ; VICEGRIP
-	db "גיליוטינה@"   ; GUILLOTINE
-	db "רוחסכינים@"   ; RAZOR WIND
-	db "מחולחרבות@"   ; SWORDS DANCE
-	db "חיתוך@"       ; CUT
-	db "רוח פרצים@"   ; GUST
-	db "מכת כנף@"     ; WING ATTACK
-	db "סופה@"        ; WHIRLWIND
-	db "תעופה@"       ; FLY
-	db "עקידה@"       ; BIND
-	db "מהלומה@"      ; SLAM
-	db "שוט גפן@"     ; VINE WHIP
-	db "רקיעה@"       ; STOMP
-	db "כפל בעיטה@"   ; DOUBLE KICK
-	db "בעיטת על@"    ; MEGA KICK
-	db "קפוץבעיטה@"   ; JUMP KICK
-	db "בעיטתגלגל@"   ; ROLLING KICK
-	db "מתקפת חול@"   ; SAND-ATTACK
-	db "נגיחה@"       ; HEADBUTT
-	db "מתקפת קרן@"   ; HORN ATTACK
-	db "מתקפת זעם@"   ; FURY ATTACK
-	db "מקדחת קרן@"   ; HORN DRILL
-	db "התנפלות@"     ; TACKLE
-	db "חבטת גוף@"    ; BODY SLAM
-	db "עיטוף@"       ; WRAP
-	db "הכנעה@"       ; TAKE DOWN
-	db "השתוללות@"    ; THRASH
-	db "חרבפיפיות@"   ; DOUBLE-EDGE
-	db "שוט זנב@"     ; TAIL WHIP
-	db "עקיצת רעל@"   ; POISON STING
-	db "מחט כפולה@"   ; TWINEEDLE
-	db "טיל מחט@"     ; PIN MISSILE
-	db "מבט חודר@"    ; LEER
-	db "נשיכה@"       ; BITE
-	db "נהמה@"        ; GROWL
-	db "שאגה@"        ; ROAR
-	db "שירה@"        ; SING
-	db "על-קולי@"     ; SUPERSONIC
-	db "בום עלקול@"   ; SONICBOOM
-	db "השבתה@"       ; DISABLE
-	db "חומצה@"       ; ACID
-	db "גחלים@"       ; EMBER
-	db "להביור@"      ; FLAMETHROWER
-	db "ערפל@"        ; MIST
-	db "רובה מים@"    ; WATER GUN
-	db "זרנוק@"       ; HYDRO PUMP
-	db "גלישה@"       ; SURF
-	db "קרן קרח@"     ; ICE BEAM
-	db "סופת שלג@"    ; BLIZZARD
-	db "קרןעל-חוש@"   ; PSYBEAM
-	db "קרן בועות@"   ; BUBBLEBEAM
-	db "קרן זוהרת@"   ; AURORA BEAM
-	db "קרן על@"      ; HYPER BEAM
-	db "ניקור@"       ; PECK
-	db "ניקור קדח@"   ; DRILL PECK
-	db "כניעה@"       ; SUBMISSION
-	db "בעיטהנמוך@"   ; LOW KICK
-	db "נגידה@"       ; COUNTER
-	db "מכה ססמית@"   ; SEISMIC TOSS
-	db "עוצמה@"       ; STRENGTH
-	db "יניקה@"       ; ABSORB
-	db "יניקת על@"    ; MEGA DRAIN
-	db "זרע יניקה@"   ; LEECH SEED
-	db "צמיחה@"       ; GROWTH
-	db "עלי להב@"     ; RAZOR LEAF
-	db "קרן שמש@"     ; SOLARBEAM
-	db "אבקת רעל@"    ; POISONPOWDER
-	db "נבג שיתוק@"   ; STUN SPORE
-	db "אבקת שינה@"   ; SLEEP POWDER
-	db "מחול אביב@"   ; PETAL DANCE
-	db "ירי קורים@"   ; STRING SHOT
-	db "זעםדרקוני@"   ; DRAGON RAGE
-	db "אשמערבולת@"   ; FIRE SPIN
-	db "שוק חשמלי@"   ; THUNDERSHOCK
-	db "חזיז ורעם@"   ; THUNDERBOLT
-	db "גל רעם@"      ; THUNDER WAVE
-	db "רעם@"         ; THUNDER
-	db "שיגור סלע@"   ; ROCK THROW
-	db "רעידתאדמה@"   ; EARTHQUAKE
-	db "בולען@"       ; FISSURE
-	db "התחפרות@"     ; DIG
-	db "הרעלה@"       ; TOXIC
-	db "אנדרלמוסיה@"   ; CONFUSION
-	db "אשליה@"       ; PSYCHIC
-	db "היפנוזה@"     ; HYPNOSIS
-	db "מדיטציה@"     ; MEDITATE
-	db "זריזות@"      ; AGILITY
-	db "מכה זריזה@"   ; QUICK ATTACK
-	db "זעם@"         ; RAGE
-	db "השתגרות@"     ; TELEPORT
-	db "צל לילי@"     ; NIGHT SHADE
-	db "חקיינות@"     ; MIMIC
-	db "צווחה@"       ; SCREECH
-	db "רואה כפול@"   ; DOUBLE TEAM
-	db "החלמה@"       ; RECOVER
-	db "הקשחה@"       ; HARDEN
-	db "צמצום@"       ; MINIMIZE
-	db "מסך עשן@"     ; SMOKESCREEN
-	db "קרן בלבול@"   ; CONFUSE RAY
-	db "נסיגה@"       ; WITHDRAW
-	db "עמדת הגנה@"   ; DEFENSE CURL
-	db "מחסום@"       ; BARRIER
-	db "מסך אוך@"     ; LIGHT SCREEN
-	db "אובך@"        ; HAZE
-	db "שיקוף@"       ; REFLECT
-	db "רכזאנרגיה@"   ; FOCUS ENERGY
-	db "סבלנות@"      ; BIDE
-	db "פעמן@"        ; METRONOME
-	db "העתקתמהלך@"   ; MIRROR MOVE
-	db "השמדעצמית@"   ; SELFDESTRUCT
-	db "פצצת ביצה@"   ; EGG BOMB
-	db "ליקוק@"       ; LICK
-	db "ערפיח@"       ; SMOG
-	db "רפש@"         ; SLUDGE
-	db "מחבט עצם@"    ; BONE CLUB
-	db "אש מתפרצת@"   ; FIRE BLAST
-	db "מפל מים@"     ; WATERFALL
-	db "הידוק@"       ; CLAMP
-	db "חיש קל@"      ; SWIFT
-	db "רצץגולגלת@"   ; SKULL BASH
-	db "ירי דורבן@"   ; SPIKE CANNON
-	db "הגבלה@"       ; CONSTRICT
-	db "שיכחון@"      ; AMNESIA
-	db "זיע@"         ; KINESIS
-	db "הטלת ביצה@"   ; SOFTBOILED
-	db "זנק בעיטה@"   ; HI JUMP KICK
-	db "נעיצת מבט@"   ; GLARE
-	db "זלילתחלום@"   ; DREAM EATER
-	db "גז רעיל@"     ; POISON GAS
-	db "ידוי אבן@"    ; BARRAGE
-	db "התעלקות@"     ; LEECH LIFE
-	db "נשיקת שטן@"   ; LOVELY KISS
-	db "מתקפתשמים@"   ; SKY ATTACK
-	db "שנה צורה@"    ; TRANSFORM
-	db "בעבוע@"       ; BUBBLE
-	db "מכת סחרחר@"   ; DIZZY PUNCH
-	db "נבג@"         ; SPORE
-	db "הבזק@"        ; FLASH
-	db "על-חוש@"      ; PSYWAVE
-	db "שכשוך@"       ; SPLASH
-	db "מגן חומצי@"   ; ACID ARMOR
-	db "צבתות@"       ; CRABHAMMER
-	db "פיצוץ@"       ; EXPLOSION
-	db "שריטת זעם@"   ; FURY SWIPES
-	db "בומרנג@"      ; BONEMERANG
-	db "מנוחה@"       ; REST
-	db "מפולת סלע@"   ; ROCK SLIDE
-	db "ניבי על@"     ; HYPER FANG
-	db "השחזה@"       ; SHARPEN
-	db "המרה@"        ; CONVERSION
-	db "כוח משולש@"   ; TRI ATTACK
-	db "ניבים@"       ; SUPER FANG
-	db "חיתוך@"       ; SLASH
-	db "ממלא מקום@"   ; SUBSTITUTE
-	db "מאבק@"        ; STRUGGLE
+	list_start MoveNames
+	li "חבטה"        ; POUND
+	li "מכת קראטה"   ; KARATE CHOP
+	li "כפל סטירה"   ; DOUBLESLAP
+	li "אגרוףשביט"   ; COMET PUNCH
+	li "אגרוף על"    ; MEGA PUNCH
+	li "לוטו"        ; PAY DAY
+	li "אגרוף אש"    ; FIRE PUNCH
+	li "אגרוף קרח"   ; ICE PUNCH
+	li "אגרוף רעם"   ; THUNDERPUNCH
+	li "שריטה"       ; SCRATCH
+	li "כליבה"       ; VICEGRIP
+	li "גיליוטינה"   ; GUILLOTINE
+	li "רוחסכינים"   ; RAZOR WIND
+	li "מחולחרבות"   ; SWORDS DANCE
+	li "חיתוך"       ; CUT
+	li "רוח פרצים"   ; GUST
+	li "מכת כנף"     ; WING ATTACK
+	li "סופה"        ; WHIRLWIND
+	li "תעופה"       ; FLY
+	li "עקידה"       ; BIND
+	li "מהלומה"      ; SLAM
+	li "שוט גפן"     ; VINE WHIP
+	li "רקיעה"       ; STOMP
+	li "כפל בעיטה"   ; DOUBLE KICK
+	li "בעיטת על"    ; MEGA KICK
+	li "קפוץבעיטה"   ; JUMP KICK
+	li "בעיטתגלגל"   ; ROLLING KICK
+	li "מתקפת חול"   ; SAND-ATTACK
+	li "נגיחה"       ; HEAliUTT
+	li "מתקפת קרן"   ; HORN ATTACK
+	li "מתקפת זעם"   ; FURY ATTACK
+	li "מקדחת קרן"   ; HORN DRILL
+	li "התנפלות"     ; TACKLE
+	li "חבטת גוף"    ; BODY SLAM
+	li "עיטוף"       ; WRAP
+	li "הכנעה"       ; TAKE DOWN
+	li "השתוללות"    ; THRASH
+	li "חרבפיפיות"   ; DOUBLE-EDGE
+	li "שוט זנב"     ; TAIL WHIP
+	li "עקיצת רעל"   ; POISON STING
+	li "מחט כפולה"   ; TWINEEDLE
+	li "טיל מחט"     ; PIN MISSILE
+	li "מבט חודר"    ; LEER
+	li "נשיכה"       ; BITE
+	li "נהמה"        ; GROWL
+	li "שאגה"        ; ROAR
+	li "שירה"        ; SING
+	li "על-קולי"     ; SUPERSONIC
+	li "בום עלקול"   ; SONICBOOM
+	li "השבתה"       ; DISABLE
+	li "חומצה"       ; ACID
+	li "גחלים"       ; EMBER
+	li "להביור"      ; FLAMETHROWER
+	li "ערפל"        ; MIST
+	li "רובה מים"    ; WATER GUN
+	li "זרנוק"       ; HYDRO PUMP
+	li "גלישה"       ; SURF
+	li "קרן קרח"     ; ICE BEAM
+	li "סופת שלג"    ; BLIZZARD
+	li "קרןעל-חוש"   ; PSYBEAM
+	li "קרן בועות"   ; BUBBLEBEAM
+	li "קרן זוהרת"   ; AURORA BEAM
+	li "קרן על"      ; HYPER BEAM
+	li "ניקור"       ; PECK
+	li "ניקור קדח"   ; DRILL PECK
+	li "כניעה"       ; SUBMISSION
+	li "בעיטהנמוך"   ; LOW KICK
+	li "נגידה"       ; COUNTER
+	li "מכה ססמית"   ; SEISMIC TOSS
+	li "עוצמה"       ; STRENGTH
+	li "יניקה"       ; ABSORB
+	li "יניקת על"    ; MEGA DRAIN
+	li "זרע יניקה"   ; LEECH SEED
+	li "צמיחה"       ; GROWTH
+	li "עלי להב"     ; RAZOR LEAF
+	li "קרן שמש"     ; SOLARBEAM
+	li "אבקת רעל"    ; POISONPOWDER
+	li "נבג שיתוק"   ; STUN SPORE
+	li "אבקת שינה"   ; SLEEP POWDER
+	li "מחול אביב"   ; PETAL DANCE
+	li "ירי קורים"   ; STRING SHOT
+	li "זעםדרקוני"   ; DRAGON RAGE
+	li "אשמערבולת"   ; FIRE SPIN
+	li "שוק חשמלי"   ; THUNDERSHOCK
+	li "חזיז ורעם"   ; THUNDERBOLT
+	li "גל רעם"      ; THUNDER WAVE
+	li "רעם"         ; THUNDER
+	li "שיגור סלע"   ; ROCK THROW
+	li "רעידתאדמה"   ; EARTHQUAKE
+	li "בולען"       ; FISSURE
+	li "התחפרות"     ; DIG
+	li "הרעלה"       ; TOXIC
+	li "אנדרלמוסיה"   ; CONFUSION
+	li "אשליה"       ; PSYCHIC
+	li "היפנוזה"     ; HYPNOSIS
+	li "מדיטציה"     ; MEDITATE
+	li "זריזות"      ; AGILITY
+	li "מכה זריזה"   ; QUICK ATTACK
+	li "זעם"         ; RAGE
+	li "השתגרות"     ; TELEPORT
+	li "צל לילי"     ; NIGHT SHADE
+	li "חקיינות"     ; MIMIC
+	li "צווחה"       ; SCREECH
+	li "רואה כפול"   ; DOUBLE TEAM
+	li "החלמה"       ; RECOVER
+	li "הקשחה"       ; HARDEN
+	li "צמצום"       ; MINIMIZE
+	li "מסך עשן"     ; SMOKESCREEN
+	li "קרן בלבול"   ; CONFUSE RAY
+	li "נסיגה"       ; WITHDRAW
+	li "עמדת הגנה"   ; DEFENSE CURL
+	li "מחסום"       ; BARRIER
+	li "מסך אוך"     ; LIGHT SCREEN
+	li "אובך"        ; HAZE
+	li "שיקוף"       ; REFLECT
+	li "רכזאנרגיה"   ; FOCUS ENERGY
+	li "סבלנות"      ; BIDE
+	li "פעמן"        ; METRONOME
+	li "העתקתמהלך"   ; MIRROR MOVE
+	li "השמדעצמית"   ; SELFDESTRUCT
+	li "פצצת ביצה"   ; EGG BOMB
+	li "ליקוק"       ; LICK
+	li "ערפיח"       ; SMOG
+	li "רפש"         ; SLUDGE
+	li "מחבט עצם"    ; BONE CLUB
+	li "אש מתפרצת"   ; FIRE BLAST
+	li "מפל מים"     ; WATERFALL
+	li "הידוק"       ; CLAMP
+	li "חיש קל"      ; SWIFT
+	li "רצץגולגלת"   ; SKULL BASH
+	li "ירי דורבן"   ; SPIKE CANNON
+	li "הגבלה"       ; CONSTRICT
+	li "שיכחון"      ; AMNESIA
+	li "זיע"         ; KINESIS
+	li "הטלת ביצה"   ; SOFTBOILED
+	li "זנק בעיטה"   ; HI JUMP KICK
+	li "נעיצת מבט"   ; GLARE
+	li "זלילתחלום"   ; DREAM EATER
+	li "גז רעיל"     ; POISON GAS
+	li "ידוי אבן"    ; BARRAGE
+	li "התעלקות"     ; LEECH LIFE
+	li "נשיקת שטן"   ; LOVELY KISS
+	li "מתקפתשמים"   ; SKY ATTACK
+	li "שנה צורה"    ; TRANSFORM
+	li "בעבוע"       ; BUBBLE
+	li "מכת סחרחר"   ; DIZZY PUNCH
+	li "נבג"         ; SPORE
+	li "הבזק"        ; FLASH
+	li "על-חוש"      ; PSYWAVE
+	li "שכשוך"       ; SPLASH
+	li "מגן חומצי"   ; ACID ARMOR
+	li "צבתות"       ; CRABHAMMER
+	li "פיצוץ"       ; EXPLOSION
+	li "שריטת זעם"   ; FURY SWIPES
+	li "בומרנג"      ; BONEMERANG
+	li "מנוחה"       ; REST
+	li "מפולת סלע"   ; ROCK SLIDE
+	li "ניבי על"     ; HYPER FANG
+	li "השחזה"       ; SHARPEN
+	li "המרה"        ; CONVERSION
+	li "כוח משולש"   ; TRI ATTACK
+	li "ניבים"       ; SUPER FANG
+	li "חיתוך"       ; SLASH
+	li "ממלא מקום"   ; SUBSTITUTE
+	li "מאבק"        ; STRUGGLE
+	assert_list_length NUM_ATTACKS

@@ -1,7 +1,7 @@
 LancesRoom_Script:
 	call LanceShowOrHideEntranceBlocks
 	call EnableAutoTextBoxDrawing
-	ld hl, LanceTrainerHeader0
+	ld hl, LancesRoomTrainerHeaders
 	ld de, LancesRoom_ScriptPointers
 	ld a, [wLancesRoomCurScript]
 	call ExecuteCurMapScriptInTable
@@ -18,23 +18,21 @@ LanceShowOrHideEntranceBlocks:
 	; open entrance
 	ld a, $31
 	ld b, $32
-	jp LanceSetEntranceBlocks
+	jp .setEntranceBlocks
 .closeEntrance
 	ld a, $72
 	ld b, $73
-
-LanceSetEntranceBlocks:
+.setEntranceBlocks
 ; Replaces the tile blocks so the player can't leave.
 	push bc
 	ld [wNewTileBlockID], a
 	lb bc, 6, 2
-	call LanceSetEntranceBlock
+	call .SetEntranceBlock
 	pop bc
 	ld a, b
 	ld [wNewTileBlockID], a
 	lb bc, 6, 3
-
-LanceSetEntranceBlock:
+.SetEntranceBlock:
 	predef_jump ReplaceTileBlock
 
 ResetLanceScript:
@@ -130,13 +128,15 @@ LanceScript3:
 LancesRoom_TextPointers:
 	dw LanceText1
 
-LanceTrainerHeader0:
+LancesRoomTrainerHeaders:
+	def_trainers
+LancesRoomTrainerHeader0:
 	trainer EVENT_BEAT_LANCES_ROOM_TRAINER_0, 0, LanceBeforeBattleText, LanceEndBattleText, LanceAfterBattleText
 	db -1 ; end
 
 LanceText1:
 	text_asm
-	ld hl, LanceTrainerHeader0
+	ld hl, LancesRoomTrainerHeader0
 	call TalkToTrainer
 	jp TextScriptEnd
 

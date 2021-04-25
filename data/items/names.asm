@@ -1,98 +1,101 @@
 ItemNames::
-	db "כדור על@"         ; MASTER BALL
-	db "כדור יתר@"        ; ULTRA BALL
-	db "כדור רב@"         ; GREAT BALL
-	db "פוכדור@"           ; POKé BALL
-	db "מפה@"        ; TOWN MAP
-	db "אופניים@"         ; BICYCLE
-	db "?????@"           ; ?????
-	db "כדור ספארי@"      ; SAFARI BALL
-	db "#ידע@"            ; POKéDEX
-	db "אבן ירח@"         ; MOON STONE
-	db "נוגדן@"           ; ANTIDOTE
-	db "רפא כויה@"       ; BURN HEAL
-	db "רפא קרח@"         ; ICE HEAL
-	db "שיקוי מעורר@"     ; AWAKENING
-	db "רפא שיתוק@"       ; PARLYZ HEAL
-	db "ריפוי מלא@"       ; FULL RESTORE
-	db "שיקוי על@"        ; MAX POTION
-	db "שיקוי יתר@"       ; HYPER POTION
-	db "שיקוי רב@"        ; SUPER POTION
-	db "שיקוי@"           ; POTION
-	db "תג הסלע@"         ; BOULDERBADGE
-	db "תג האדווה@"       ; CASCADEBADGE
-	db "תג הרעם@"         ; THUNDERBADGE
-	db "תג הקשת בענן@"    ; RAINBOWBADGE
-	db "תג הלב@"          ; SOULBADGE
-	db "תג הזהב@"         ; MARSHBADGE
-	db "תג המגמה@"        ; VOLCANOBADGE
-	db "תג האדמה@"        ; EARTHBADGE
-	db "חבל הימלטות@"     ; ESCAPE ROPE
-	db "דוחה@"            ; REPEL
-	db "ענבר עתיק@"       ; OLD AMBER
-	db "אבן אש@"          ; FIRE STONE
-	db "אבן ברק@"         ; THUNDERSTONE
-	db "אבן מים@"         ; WATER STONE
-	db "עוד נ”פ@"          ; HP UP
-	db "חלבון@"           ; PROTEIN
-	db "ברזל@"            ; IRON
-	db "פחמן@"            ; CARBOS
-	db "סידן@"            ; CALCIUM
-	db "ממתק נדיר@"       ; RARE CANDY
-	db "מאובן כיפתי@"     ; DOME FOSSIL
-	db "מאובן סלילי@"     ; HELIX FOSSIL
-	db "מפתח סודי@"       ; SECRET KEY
-	db "?????@"           ; ?????
-	db "שובר אופניים@"    ; BIKE VOUCHER
-	db "X דייקנות@"       ; X ACCURACY
-	db "אבן עלה@"         ; LEAF STONE
-	db "כרטיס מפתח@"      ; CARD KEY
-	db "גוש זהב@"         ; NUGGET
-	db "עוד נ”כ@"         ; PP UP
-	db "בובת #ימון@"      ; POKé DOLL
-	db "ריפוי מלא@"       ; FULL HEAL
-	db "החייאה@"          ; REVIVE
-	db "החייאת על@"       ; MAX REVIVE
-	db "הגנה מיוחדת@"     ; GUARD SPEC.
-	db "דוחה על@"         ; SUPER REPEL
-	db "דוחה יתר@"        ; MAX REPEL
-	db "X הרסנות@"        ; DIRE HIT
-	db "מטבע@"            ; COIN
-	db "מים מינרלים@"     ; FRESH WATER
-	db "משקה קל@"         ; SODA POP
-	db "לימונדה@"         ; LEMONADE
-	db "כרטיס לשיט@"      ; S.S.TICKET
-	db "שיני זהב@"        ; GOLD TEETH
-	db "X מתקפה@"         ; X ATTACK
-	db "X הגנה@"          ; X DEFEND
-	db "X מהירות@"        ; X SPEED
-	db "X מיוחדת@"        ; X SPECIAL
-	db "ארנק אסימונים@"  ; COIN CASE
-	db "חבילה של אלון@"   ; OAK's PARCEL
-	db "מאתר חפצים@"      ; ITEMFINDER
-	db "משקף סילף@"       ; SILPH SCOPE
-	db "חלילית קסם@"      ; POKé FLUTE
-	db "מפתח למעלית@"     ; LIFT KEY
-	db "שיתוף נ”נ@"       ; EXP.ALL
-	db "חכה בלויה@"       ; OLD ROD
-	db "חכה איכותית@"     ; GOOD ROD
-	db "חכת על@"          ; SUPER ROD
-	db "עוד נ”כ@"         ; PP UP
-	db "אתר@"             ; ETHER
-	db "אתר על@"          ; MAX ETHER
-	db "סם חיים@"         ; ELIXER
-	db "סם חיים על@"     ; MAX ELIXER
-	db "F2B@"             ; B2F
-	db "F1B@"             ; B1F
-	db "F1@"              ; 1F
-	db "F2@"              ; 2F
-	db "F3@"              ; 3F
-	db "F4@"              ; 4F
-	db "F5@"              ; 5F
-	db "F6@"              ; 6F
-	db "F7@"              ; 7F
-	db "F8@"              ; 8F
-	db "F9@"              ; 9F
-	db "F01@"             ; 10F
-	db "F11@"             ; 11F
-	db "F4B@"             ; B4F
+	list_start ItemNames
+	li "כדור על"       ; MASTER BALL
+	li "כדור יתר"      ; ULTRA BALL
+	li "כדור רב"       ; GREAT BALL
+	li "פוכדור"        ; POKé BALL
+	li "מפה"           ; TOWN MAP
+	li "אופניים"       ; BICYCLE
+	li "?????"         ; ?????
+	li "כדור ספארי"    ; SAFARI BALL
+	li "#ידע"          ; POKéDEX
+	li "אבן ירח"       ; MOON STONE
+	li "נוגדן"         ; ANTIDOTE
+	li "רפא כויה"      ; BURN HEAL
+	li "רפא קרח"       ; ICE HEAL
+	li "שיקוי מעורר"   ; AWAKENING
+	li "רפא שיתוק"     ; PARLYZ HEAL
+	li "ריפוי מלא"     ; FULL RESTORE
+	li "שיקוי על"      ; MAX POTION
+	li "שיקוי יתר"     ; HYPER POTION
+	li "שיקוי רב"      ; SUPER POTION
+	li "שיקוי"         ; POTION
+	li "תג הסלע"       ; BOULDERBADGE
+	li "תג האדווה"     ; CASCADEBADGE
+	li "תג הרעם"       ; THUNDERBADGE
+	li "תג הקשת בענן"  ; RAINBOWBADGE
+	li "תג הלב"        ; SOULBADGE
+	li "תג הזהב"       ; MARSHBADGE
+	li "תג המגמה"      ; VOLCANOBADGE
+	li "תג האדמה"      ; EARTHBADGE
+	li "חבל הימלטות"   ; ESCAPE ROPE
+	li "דוחה"          ; REPEL
+	li "ענבר עתיק"     ; OLD AMBER
+	li "אבן אש"        ; FIRE STONE
+	li "אבן ברק"       ; THUNDERSTONE
+	li "אבן מים"       ; WATER STONE
+	li "עוד נ”פ"       ; HP UP
+	li "חלבון"         ; PROTEIN
+	li "ברזל"          ; IRON
+	li "פחמן"          ; CARBOS
+	li "סידן"          ; CALCIUM
+	li "ממתק נדיר"     ; RARE CANDY
+	li "מאובן כיפתי"   ; DOME FOSSIL
+	li "מאובן סלילי"   ; HELIX FOSSIL
+	li "מפתח סודי"     ; SECRET KEY
+	li "?????"         ; ?????
+	li "שובר אופניים"  ; BIKE VOUCHER
+	li "X דייקנות"     ; X ACCURACY
+	li "אבן עלה"       ; LEAF STONE
+	li "כרטיס מפתח"    ; CARD KEY
+	li "גוש זהב"       ; NUGGET
+	li "עוד נ”כ"       ; PP UP
+	li "בובת #ימון"    ; POKé DOLL
+	li "ריפוי מלא"     ; FULL HEAL
+	li "החייאה"        ; REVIVE
+	li "החייאת על"     ; MAX REVIVE
+	li "הגנה מיוחדת"   ; GUARD SPEC.
+	li "דוחה על"       ; SUPER REPEL
+	li "דוחה יתר"      ; MAX REPEL
+	li "X הרסנות"      ; DIRE HIT
+	li "מטבע"          ; COIN
+	li "מים מינרלים"   ; FRESH WATER
+	li "משקה קל"       ; SODA POP
+	li "לימונדה"       ; LEMONADE
+	li "כרטיס לשיט"    ; S.S.TICKET
+	li "שיני זהב"      ; GOLD TEETH
+	li "X מתקפה"       ; X ATTACK
+	li "X הגנה"        ; X DEFEND
+	li "X מהירות"      ; X SPEED
+	li "X מיוחדת"      ; X SPECIAL
+	li "ארנק אסימונים" ; COIN CASE
+	li "חבילה של אלון" ; OAK's PARCEL
+	li "מאתר חפצים"    ; ITEMFINDER
+	li "משקף סילף"     ; SILPH SCOPE
+	li "חלילית קסם"    ; POKé FLUTE
+	li "מפתח למעלית"   ; LIFT KEY
+	li "שיתוף נ”נ"     ; EXP.ALL
+	li "חכה בלויה"     ; OLD ROD
+	li "חכה איכותית"   ; GOOD ROD
+	li "חכת על"        ; SUPER ROD
+	li "עוד נ”כ"       ; PP UP
+	li "אתר"           ; ETHER
+	li "אתר על"        ; MAX ETHER
+	li "סם חיים"       ; ELIXER
+	li "סם חיים על"    ; MAX ELIXER
+	assert_list_length NUM_ITEMS
+	li "F2B"           ; B2F
+	li "F1B"           ; B1F
+	li "F1"            ; 1F
+	li "F2"            ; 2F
+	li "F3"            ; 3F
+	li "F4"            ; 4F
+	li "F5"            ; 5F
+	li "F6"            ; 6F
+	li "F7"            ; 7F
+	li "F8"            ; 8F
+	li "F9"            ; 9F
+	li "F01"           ; 10F
+	li "F11"           ; 11F
+	li "F4B"           ; B4F
+	assert_list_length NUM_ITEMS + NUM_FLOORS

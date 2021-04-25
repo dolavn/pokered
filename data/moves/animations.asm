@@ -1,4 +1,5 @@
 AttackAnimationPointers:
+	table_width 2, AttackAnimationPointers
 	dw PoundAnim
 	dw KarateChopAnim
 	dw DoubleSlapAnim
@@ -78,7 +79,7 @@ AttackAnimationPointers:
 	dw PoisonPowderAnim
 	dw StunSporeAnim
 	dw SleepPowderAnim
-	dw PedalDanceAnim
+	dw PetalDanceAnim
 	dw StringShotAnim
 	dw DragonRageAnim
 	dw FireSpinAnim
@@ -164,6 +165,7 @@ AttackAnimationPointers:
 	dw SlashAnim
 	dw SubstituteAnim
 	dw StruggleAnim
+	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
 	dw EnemyFlashAnim
 	dw PlayerFlashAnim
@@ -201,6 +203,7 @@ AttackAnimationPointers:
 	dw HidePicAnim
 	dw ThrowRockAnim
 	dw ThrowBaitAnim
+	assert_table_length NUM_ATTACK_ANIMS
 	dw ZigZagScreenAnim
 
 ; each animation is a list of subanimations
@@ -650,7 +653,7 @@ SleepPowderAnim:
 	battle_anim SLEEP_POWDER, SUBANIM_36, 0, 6
 	db -1 ; end
 
-PedalDanceAnim:
+PetalDanceAnim:
 	battle_anim PETAL_DANCE, SE_LIGHT_SCREEN_PALETTE
 	battle_anim NO_MOVE, SE_PETALS_FALLING
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE

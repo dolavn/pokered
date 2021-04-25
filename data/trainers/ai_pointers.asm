@@ -1,4 +1,5 @@
 TrainerAIPointers:
+	table_width 3, TrainerAIPointers
 	; one entry per trainer class
 	; first byte, number of times (per Pokémon) it can occur
 	; next two bytes, pointer to AI subroutine for trainer class
@@ -27,7 +28,7 @@ TrainerAIPointers:
 	dbw 3, GenericAI
 	dbw 3, GenericAI
 	dbw 2, BlackbeltAI ; blackbelt
-	dbw 3, GenericAI
+	dbw 3, GenericAI ; rival1
 	dbw 3, GenericAI
 	dbw 1, GenericAI ; chief
 	dbw 3, GenericAI
@@ -44,9 +45,10 @@ TrainerAIPointers:
 	dbw 2, BlaineAI ; blaine
 	dbw 1, SabrinaAI ; sabrina
 	dbw 3, GenericAI
-	dbw 1, Sony2AI ; sony2
-	dbw 1, Sony3AI ; sony3
+	dbw 1, Rival2AI ; rival2
+	dbw 1, Rival3AI ; rival3
 	dbw 2, LoreleiAI ; lorelei
 	dbw 3, GenericAI
 	dbw 2, AgathaAI ; agatha
 	dbw 1, LanceAI ; lance
+	assert_table_length NUM_TRAINERS

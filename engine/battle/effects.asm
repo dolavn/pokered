@@ -198,7 +198,7 @@ FreezeBurnParalyzeEffect:
 	ret nz ; return if they have a substitute, can't effect them
 	ldh a, [hWhoseTurn]
 	and a
-	jp nz, opponentAttacker
+	jp nz, .opponentAttacker
 	ld a, [wEnemyMonStatus]
 	and a
 	jp nz, CheckDefrost ; can't inflict status if opponent is already statused
@@ -211,12 +211,13 @@ FreezeBurnParalyzeEffect:
 	cp b ; do target type 2 and move type match?
 	ret z  ; return if they match
 	ld a, [wPlayerMoveEffect]
-	cp PARALYZE_SIDE_EFFECT1 + 1 ; 10% status effects are 04, 05, 06 so 07 will set carry for those
-	ld b, $1a ; 0x1A/0x100 or 26/256 = 10.2%~ chance
-	jr c, .next1 ; branch ahead if this is a 10% chance effect..
-	ld b, $4d ; else use 0x4D/0x100 or 77/256 = 30.1%~ chance
-	sub $1e ; subtract $1E to map to equivalent 10% chance effects
-.next1
+	cp PARALYZE_SIDE_EFFECT1 + 1
+	ld b, 10 percent + 1
+	jr c, .regular_effectiveness
+; extra effectiveness
+	ld b, 30 percent + 1
+	sub BURN_SIDE_EFFECT2 - BURN_SIDE_EFFECT1 ; treat extra effective as regular from now on
+.regular_effectiveness
 	push af
 	call BattleRandom ; get random 8bit value for probability test
 	cp b
@@ -224,17 +225,17 @@ FreezeBurnParalyzeEffect:
 	ret nc ; do nothing if random value is >= 1A or 4D [no status applied]
 	ld a, b ; what type of effect is this?
 	cp BURN_SIDE_EFFECT1
-	jr z, .burn
+	jr z, .burn1
 	cp FREEZE_SIDE_EFFECT
-	jr z, .freeze
-; .paralyze
+	jr z, .freeze1
+; .paralyze1
 	ld a, 1 << PAR
 	ld [wEnemyMonStatus], a
 	call QuarterSpeedDueToParalysis ; quarter speed of affected mon
 	ld a, ANIM_A9
 	call PlayBattleAnimation
 	jp PrintMayNotAttackText ; print paralysis text
-.burn
+.burn1
 	ld a, 1 << BRN
 	ld [wEnemyMonStatus], a
 	call HalveAttackDueToBurn ; halve attack of affected mon
@@ -242,7 +243,7 @@ FreezeBurnParalyzeEffect:
 	call PlayBattleAnimation
 	ld hl, BurnedText
 	jp PrintText
-.freeze
+.freeze1
 	call ClearHyperBeam ; resets hyper beam (recharge) condition from target
 	ld a, 1 << FRZ
 	ld [wEnemyMonStatus], a
@@ -250,7 +251,7 @@ FreezeBurnParalyzeEffect:
 	call PlayBattleAnimation
 	ld hl, FrozenText
 	jp PrintText
-opponentAttacker:
+.opponentAttacker
 	ld a, [wBattleMonStatus] ; mostly same as above with addresses swapped for opponent
 	and a
 	jp nz, CheckDefrost
@@ -264,11 +265,12 @@ opponentAttacker:
 	ret z
 	ld a, [wEnemyMoveEffect]
 	cp PARALYZE_SIDE_EFFECT1 + 1
-	ld b, $1a
-	jr c, .next1
-	ld b, $4d
-	sub $1e
-.next1
+	ld b, 10 percent + 1
+	jr c, .regular_effectiveness2
+; extra effectiveness
+	ld b, 30 percent + 1
+	sub BURN_SIDE_EFFECT2 - BURN_SIDE_EFFECT1 ; treat extra effective as regular from now on
+.regular_effectiveness2
 	push af
 	call BattleRandom
 	cp b
@@ -276,20 +278,21 @@ opponentAttacker:
 	ret nc
 	ld a, b
 	cp BURN_SIDE_EFFECT1
-	jr z, .burn
+	jr z, .burn2
 	cp FREEZE_SIDE_EFFECT
-	jr z, .freeze
+	jr z, .freeze2
+; .paralyze2
 	ld a, 1 << PAR
 	ld [wBattleMonStatus], a
 	call QuarterSpeedDueToParalysis
 	jp PrintMayNotAttackText
-.burn
+.burn2
 	ld a, 1 << BRN
 	ld [wBattleMonStatus], a
 	call HalveAttackDueToBurn
 	ld hl, BurnedText
 	jp PrintText
-.freeze
+.freeze2
 ; hyper beam bits aren't reseted for opponent's side
 	ld a, 1 << FRZ
 	ld [wBattleMonStatus], a
@@ -458,14 +461,14 @@ UpdateStatDone:
 	ld bc, wPlayerMonMinimized
 	ldh a, [hWhoseTurn]
 	and a
-	jr z, .asm_3f4e6
+	jr z, .playerTurn
 	ld hl, wEnemyBattleStatus2
 	ld de, wEnemyMoveNum
 	ld bc, wEnemyMonMinimized
-.asm_3f4e6
+.playerTurn
 	ld a, [de]
 	cp MINIMIZE
-	jr nz, .asm_3f4f9
+	jr nz, .notMinimize
  ; if a substitute is up, slide off the substitute and show the mon pic before
  ; playing the minimize animation
 	bit HAS_SUBSTITUTE_UP, [hl]
@@ -476,7 +479,7 @@ UpdateStatDone:
 	push de
 	call nz, Bankswitch
 	pop de
-.asm_3f4f9
+.notMinimize
 	call PlayCurrentMoveAnimation
 	ld a, [de]
 	cp MINIMIZE
@@ -741,7 +744,7 @@ FellText:
 	text_end
 
 PrintStatText:
-	ld hl, StatsTextStrings
+	ld hl, StatModTextStrings
 	ld c, "@"
 .findStatName_outer
 	dec b
@@ -756,7 +759,7 @@ PrintStatText:
 	ld bc, $a
 	jp CopyData
 
-INCLUDE "data/battle/stat_names.asm"
+INCLUDE "data/battle/stat_mod_names.asm"
 
 INCLUDE "data/battle/stat_modifiers.asm"
 

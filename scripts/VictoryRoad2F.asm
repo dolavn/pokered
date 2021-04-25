@@ -8,7 +8,7 @@ VictoryRoad2F_Script:
 	res 5, [hl]
 	call nz, VictoryRoad2Script_517c9
 	call EnableAutoTextBoxDrawing
-	ld hl, VictoryRoad2TrainerHeader0
+	ld hl, VictoryRoad2TrainerHeaders
 	ld de, VictoryRoad2F_ScriptPointers
 	ld a, [wVictoryRoad2FCurScript]
 	call ExecuteCurMapScriptInTable
@@ -17,7 +17,6 @@ VictoryRoad2F_Script:
 
 VictoryRoad2Script_517c4:
 	ResetEvent EVENT_VICTORY_ROAD_1_BOULDER_ON_SWITCH
-
 VictoryRoad2Script_517c9:
 	CheckEvent EVENT_VICTORY_ROAD_2_BOULDER_ON_SWITCH1
 	jr z, .asm_517da
@@ -31,7 +30,6 @@ VictoryRoad2Script_517c9:
 	ret z
 	ld a, $1d
 	lb bc, 7, 11
-
 VictoryRoad2Script_517e2:
 	ld [wNewTileBlockID], a
 	predef ReplaceTileBlock
@@ -83,6 +81,8 @@ VictoryRoad2F_TextPointers:
 	dw BoulderText
 	dw BoulderText
 
+VictoryRoad2TrainerHeaders:
+	def_trainers
 VictoryRoad2TrainerHeader0:
 	trainer EVENT_BEAT_VICTORY_ROAD_2_TRAINER_0, 4, VictoryRoad2BattleText1, VictoryRoad2EndBattleText1, VictoryRoad2AfterBattleText1
 VictoryRoad2TrainerHeader1:

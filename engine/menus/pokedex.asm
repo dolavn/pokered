@@ -422,10 +422,10 @@ ShowPokedexDataInternal:
 	call RunPaletteCommand
 	pop af
 	ld [wd11e], a
-	ldh a, [hTilesetType]
+	ldh a, [hTileAnimations]
 	push af
 	xor a
-	ldh [hTilesetType], a
+	ldh [hTileAnimations], a
 
 	hlcoord 0, 0
 	ld de, 1
@@ -592,7 +592,7 @@ ShowPokedexDataInternal:
 	and A_BUTTON | B_BUTTON
 	jr z, .waitForButtonPress
 	pop af
-	ldh [hTilesetType], a
+	ldh [hTileAnimations], a
 	call GBPalWhiteOut
 	call ClearScreen
 	call RunDefaultPaletteCommand

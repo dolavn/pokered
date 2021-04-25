@@ -170,10 +170,10 @@ GetCryData::
 	ret
 
 DisplayPartyMenu::
-	ldh a, [hTilesetType]
+	ldh a, [hTileAnimations]
 	push af
 	xor a
-	ldh [hTilesetType], a
+	ldh [hTileAnimations], a
 	call GBPalWhiteOutWithDelay3
 	call ClearSprites
 	call PartyMenuInit
@@ -181,10 +181,10 @@ DisplayPartyMenu::
 	jp HandlePartyMenuInput
 
 GoBackToPartyMenu::
-	ldh a, [hTilesetType]
+	ldh a, [hTileAnimations]
 	push af
 	xor a
-	ldh [hTilesetType], a
+	ldh [hTileAnimations], a
 	call PartyMenuInit
 	call RedrawPartyMenu
 	jp HandlePartyMenuInput
@@ -245,7 +245,7 @@ HandlePartyMenuInput::
 	and a
 	jp nz, .swappingPokemon
 	pop af
-	ldh [hTilesetType], a
+	ldh [hTileAnimations], a
 	bit 1, b
 	jr nz, .noPokemonChosen
 	ld a, [wPartyCount]
@@ -319,16 +319,7 @@ PrintStatusCondition::
 	ret
 
 PrintStatusConditionNotFainted::
-	ldh a, [hLoadedROMBank]
-	push af
-	ld a, BANK(PrintStatusAilment)
-	ldh [hLoadedROMBank], a
-	ld [MBC1RomBank], a
-	call PrintStatusAilment ; print status condition
-	pop bc
-	ld a, b
-	ldh [hLoadedROMBank], a
-	ld [MBC1RomBank], a
+	homecall_sf PrintStatusAilment
 	ret
 
 ; function to print pokemon level, leaving off the ":L" if the level is at least 100
@@ -405,11 +396,11 @@ GetMonHeader::
 	predef IndexToPokedex   ; convert pokemon ID in [wd11e] to pokedex number
 	ld a, [wd11e]
 	dec a
-	ld bc, MonBaseStatsEnd - MonBaseStats
+	ld bc, BASE_DATA_SIZE
 	ld hl, BaseStats
 	call AddNTimes
 	ld de, wMonHeader
-	ld bc, MonBaseStatsEnd - MonBaseStats
+	ld bc, BASE_DATA_SIZE
 	call CopyData
 	jr .done
 .specialID
@@ -423,7 +414,7 @@ GetMonHeader::
 .mew
 	ld hl, MewBaseStats
 	ld de, wMonHeader
-	ld bc, MonBaseStatsEnd - MonBaseStats
+	ld bc, BASE_DATA_SIZE
 	ld a, BANK(MewBaseStats)
 	call FarCopyData
 .done

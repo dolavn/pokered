@@ -1,4 +1,3 @@
-MapNames:
 PalletTownName:      db "העיירה פאלט@"
 ViridianCityName:    db "עיר הברקת@"
 PewterCityName:      db "עיר הכספית@"

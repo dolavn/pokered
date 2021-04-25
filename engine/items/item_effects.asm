@@ -170,7 +170,7 @@ ItemUseBall:
 	cp POKEMON_TOWER_6F
 	jr nz, .loop
 	ld a, [wEnemyMonSpecies2]
-	cp GHOST_MON
+	cp RESTLESS_SOUL
 	ld b, $10 ; can't be caught value
 	jp z, .setAnimData
 
@@ -1051,15 +1051,15 @@ ItemUseMedicine:
 	call AddNTimes ; calculate coordinates of HP bar of pokemon that used Softboiled
 	ld a, SFX_HEAL_HP
 	call PlaySoundWaitForCurrent
-	ldh a, [hFlagsFFF6]
+	ldh a, [hUILayoutFlags]
 	set 0, a
-	ldh [hFlagsFFF6], a
+	ldh [hUILayoutFlags], a
 	ld a, $02
 	ld [wHPBarType], a
 	predef UpdateHPBar2 ; animate HP bar decrease of pokemon that used Softboiled
-	ldh a, [hFlagsFFF6]
+	ldh a, [hUILayoutFlags]
 	res 0, a
-	ldh [hFlagsFFF6], a
+	ldh [hUILayoutFlags], a
 	pop af
 	ld b, a ; store heal amount (1/5 of max HP)
 	ld hl, wHPBarOldHP + 1
@@ -1201,15 +1201,15 @@ ItemUseMedicine:
 	jr z, .playStatusAilmentCuringSound
 	ld a, SFX_HEAL_HP
 	call PlaySoundWaitForCurrent
-	ldh a, [hFlagsFFF6]
+	ldh a, [hUILayoutFlags]
 	set 0, a
-	ldh [hFlagsFFF6], a
+	ldh [hUILayoutFlags], a
 	ld a, $02
 	ld [wHPBarType], a
 	predef UpdateHPBar2 ; animate the HP bar lengthening
-	ldh a, [hFlagsFFF6]
+	ldh a, [hUILayoutFlags]
 	res 0, a
-	ldh [hFlagsFFF6], a
+	ldh [hUILayoutFlags], a
 	ld a, REVIVE_MSG
 	ld [wPartyMenuTypeOrMessageID], a
 	ld a, [wcf91]
@@ -1292,7 +1292,7 @@ ItemUseMedicine:
 	ld [hl], a
 	pop hl
 	call .recalculateStats
-	ld hl, VitaminText
+	ld hl, VitaminStats
 	ld a, [wcf91]
 	sub HP_UP - 1
 	ld c, a
@@ -1425,12 +1425,7 @@ VitaminNoEffectText:
 	text_far _VitaminNoEffectText
 	text_end
 
-VitaminText:
-	db "בריאות@"
-	db "התקפה@"
-	db "הגנה@"
-	db "מהירות@"
-	db "מיוחדת@"
+INCLUDE "data/battle/stat_names.asm"
 
 ItemUseBait:
 	ld hl, ThrewBaitText
@@ -2500,7 +2495,7 @@ GetMaxPP:
 	dec a
 	push hl
 	ld hl, Moves
-	ld bc, MoveEnd - Moves
+	ld bc, MOVE_LENGTH
 	call AddNTimes
 	ld de, wcd6d
 	ld a, BANK(Moves)

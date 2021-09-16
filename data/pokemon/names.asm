@@ -191,306 +191,306 @@ MonsterNamesPointers::
 	dw VictreebelName
 
 RhydonName:
-	db "קרנשיא@"
+	db "ריידון@"
 KangaskhanName:
-	db "כיסבל@"
+	db "קנגסקן@"
 NidoranMName:
-	db "מחטן♂@"
+	db "נידורן♂@"
 ClefairyName:
-	db "חמשדון@"
+	db "קלפירי@"
 SpearowName:
-	db "כידרור@"
+	db "ספירו@"
 VoltorbName:
-	db "חשמלמל@"
+	db "וולטרוב@"
 NidokingName:
-	db "מלקץ@"
+	db "נידוקינג@"
 SlowbroName:
-	db "אחלאט@"
+	db "סלווברו@"
 IvysaurName:
-	db "דשונה@"
+	db "אייויזור@"
 ExeggutorName:
-	db "תמרצח@"
+	db "אגזקיוטור@"
 LickitungName:
-	db "עגולשון@"
+	db "ליקטיטונג@"
 ExeggcuteName:
-	db "ביצמודות@"
+	db "אגזקיוט@"
 GrimerName:
-	db "טנפאי@"
+	db "גריימר@"
 GengarName:
-	db "אשלדאי@"
+	db "גנגר@"
 NidoranFName:
-	db "מחטנית♀@"
+	db "נידורן♀@"
 NidoqueenName:
-	db "מלכצת@"
+	db "נידוקווין@"
 CuboneName:
-	db "רשרש@"
+	db "קיובון@"
 RhyhornName:
-	db "קרנוזף@"
+	db "רייהורן@"
 LaprasName:
-	db "תכוגית@"
+	db "לפרס@"
 ArcanineName:
-	db "כלבזק@"
+	db "ארקניין@"
 MewName:
-	db "תש@"
+	db "מיו@"
 GyaradosName:
-	db "לויטורף@"
+	db "גרידוס@"
 ShellderName:
-	db "קונכך@"
+	db "שלדר@"
 TentacoolName:
-	db "קרשוש@"
+	db "טנטקול@"
 GastlyName:
-	db "שאד@"
+	db "גסטלי@"
 ScytherName:
-	db "מגל-שלמה@"
+	db "סייטר@"
 StaryuName:
-	db "כוכיש@"
+	db "סטריו@"
 BlastoiseName:
-	db "מפציצב@"
+	db "בלסטוייז@"
 PinsirName:
-	db "צבתן@"
+	db "פינסר@"
 TangelaName:
-	db "סבכיה@"
+	db "טנגלה@"
 GrowlitheName:
-	db "נהמיש@"
+	db "גרוולייט@"
 OnixName:
-	db "נחשוהם@"
+	db "אוניקס@"
 FearowName:
-	db "פחדרור@"
+	db "פירו@"
 PidgeyName:
-	db "יונדי@"
+	db "פידג'י@"
 SlowpokeName:
-	db "כיסלאט@"
+	db "סלוופוק@"
 KadabraName:
 	db "כדברא@"
 GravelerName:
-	db "מחצץ@"
+	db "גרבלר@"
 ChanseyName:
-	db "בת-מזל@"
+	db "צ'נסי@"
 MachokeName:
-	db "גברנק@"
+	db "מצ'וק@"
 MrMimeName:
-	db "מרחקיין@"
+	db "מר מיים@"
 HitmonleeName:
-	db "הכמפמדג'ה@"
+	db "היטמונלי@"
 HitmonchanName:
-	db "הכמפארד@"
+	db "היטמונצ'ן@"
 ArbokName:
-	db "נתף@"
+	db "ארבוק@"
 ParasectName:
-	db "טפרק@"
+	db "פרסקט@"
 PsyduckName:
-	db "תקשורווז@"
+	db "פסיידאק@"
 DrowzeeName:
-	db "ישנום@"
+	db "דרווזי@"
 GolemName:
-	db "גוילם@"
+	db "גולם@"
 MagmarName:
-	db "לברווז@"
+	db "מגמר@"
 ElectabuzzName:
-	db "חשמזום@"
+	db "אלקטרובאז@"
 MagnetonName:
-	db "קוטבת@"
+	db "מגנטון@"
 KoffingName:
-	db "משתעשן@"
+	db "קופינג@"
 MankeyName:
-	db "קופבני@"
+	db "מאנקי@"
 SeelName:
-	db "נבים@"
+	db "סיל@"
 DiglettName:
-	db "חפיד@"
+	db "דיגלט@"
 TaurosName:
-	db "פרסוס@"
+	db "טאוורוס@"
 FarfetchdName:
-	db "לוסביר@"
+	db "פארפצ'ד@"
 VenonatName:
-	db "רעלתוש@"
+	db "וינונאט@"
 DragoniteName:
-	db "לטאביר@"
+	db "דראגונייט@"
 DoduoName:
-	db "שנישליו@"
+	db "דודו@"
 PoliwagName:
-	db "ראשנע@"
+	db "פוליוואג@"
 JynxName:
-	db "בישה@"
+	db "ג'ינקס@"
 MoltresName:
-	db "מותלאתה@"
+	db "מולטרס@"
 ArticunoName:
-	db "קיפאוואחד@"
+	db "ארטיקונו@"
 ZapdosName:
-	db "חשמת'נן@"
+	db "זאפדוס@"
 DittoName:
-	db "שינוץ@"
+	db "דיטו@"
 MeowthName:
-	db "מיצי@"
+	db "מיאו@"
 KrabbyName:
-	db "שרטני@"
+	db "קראבי@"
 VulpixName:
-	db "ששועל@"
+	db "וולפיקס@"
 NinetalesName:
-	db "תשעלים@"
+	db "ניינטיילס@"
 PikachuName:
-	db "צויצוץ@"
+	db "פיקאצ'ו@"
 RaichuName:
-	db "עכברעם@"
+	db "ראייצ'ו@"
 DratiniName:
-	db "לטנה@"
+	db "דרטיני@"
 DragonairName:
-	db "לטאוויר@"
+	db "דראגונאייר@"
 KabutoName:
-	db "פרסדה@"
+	db "קאבוטו@"
 KabutopsName:
-	db "פרצודה@"
+	db "קאבוטופס@"
 HorseaName:
-	db "ימסוס@"
+	db "הורסי@"
 SeadraName:
-	db "אץ-ים@"
+	db "סידרה@"
 SandshrewName:
-	db "חולדף@"
+	db "סנדשרו@"
 SandslashName:
-	db "חותחול@"
+	db "סנדסלש@"
 OmanyteName:
-	db "סילוני@"
+	db "אומאנייט@"
 OmastarName:
-	db "סילוכב@"
+	db "אומסטר@"
 JigglypuffName:
-	db "ניענפוח@"
+	db "ג'יגליפאף@"
 WigglytuffName:
-	db "כישקשוח@"
+	db "וויגליפאף@"
 EeveeName:
-	db "פאתו@"
+	db "איבי@"
 FlareonName:
-	db "נורידן@"
+	db "פלריאון@"
 JolteonName:
-	db "זעידן@"
+	db "ג'ולטיאון@"
 VaporeonName:
-	db "אדידן@"
+	db "וויפוריאן@"
 MachopName:
-	db "גברכה@"
+	db "מאצ'ופ@"
 ZubatName:
-	db "אצלף@"
+	db "זובאט@"
 EkansName:
-	db "שחן@"
+	db "אקנס@"
 ParasName:
-	db "טפל@"
+	db "פרס@"
 PoliwhirlName:
-	db "ראשבוב@"
+	db "פוליווירל@"
 PoliwrathName:
-	db "ראשזעם@"
+	db "פוליוורת@"
 WeedleName:
-	db "תולחט@"
+	db "ווידל@"
 KakunaName:
-	db "גלגולם@"
+	db "קאקונה@"
 BeedrillName:
-	db "מקדבור@"
+	db "בידריל@"
 DodrioName:
-	db "שלושליו@"
+	db "דודריו@"
 PrimeapeName:
-	db "קופזועם@"
+	db "פריימאייפ@"
 DugtrioName:
-	db "חפליה@"
+	db "דוגטריו@"
 VenomothName:
-	db "רעלעש@"
+	db "וינומאט@"
 DewgongName:
-	db "טלחש@"
+	db "דיוגונג@"
 CaterpieName:
-	db "זחי@"
+	db "קטרפי@"
 MetapodName:
-	db "מפקעת@"
+	db "מטאפוד@"
 ButterfreeName:
-	db "פרפרץ@"
+	db "באטרפרי@"
 MachampName:
-	db "גברלוף@"
+	db "מאצ'אמפ@"
 GolduckName:
-	db "ברווזהב@"
+	db "גולדאק@"
 HypnoName:
-	db "מושין@"
+	db "היפנו@"
 GolbatName:
-	db "בלעלף@"
+	db "גולבאט@"
 MewtwoName:
-	db "תשני@"
+	db "מיוטו@"
 SnorlaxName:
-	db "שמנמנם@"
+	db "סנורלאקס@"
 MagikarpName:
-	db "קסמנון@"
+	db "מג'יקארפ@"
 MukName:
-	db "מרפש@"
+	db "מאק@"
 KinglerName:
-	db "כנרטן@"
+	db "קינגלר@"
 CloysterName:
-	db "מבוצדף@"
+	db "קלוייסטר@"
 ElectrodeName:
-	db "מוקשמל@"
+	db "אלקטרוד@"
 ClefableName:
-	db "חמשל@"
+	db "קלפייבל@"
 WeezingName:
-	db "משתעשניים@"
+	db "וויזינג@"
 PersianName:
-	db "קיצי@"
+	db "פרסיאן@"
 MarowakName:
-	db "קרקש@"
+	db "מארוואק@"
 HaunterName:
-	db "רוצד@"
+	db "האנטר@"
 AbraName:
 	db "אברא@"
 AlakazamName:
-	db "אוגלר@"
+	db "אלאקאזאם@"
 PidgeottoName:
-	db "יונה-עשרה@"
+	db "פידג'יוטו@"
 PidgeotName:
-	db "סילונה@"
+	db "פידג'יוט@"
 StarmieName:
-	db "כוכשיט@"
+	db "סטארמי@"
 BulbasaurName:
-	db "מוזרע@"
+	db "בלבאזור@"
 VenusaurName:
-	db "פרחריג@"
+	db "וינאזור@"
 TentacruelName:
-	db "מרושוש@"
+	db "טנטקרול@"
 GoldeenName:
-	db "זהלכה@"
+	db "גולדין@"
 SeakingName:
-	db "ימלך@"
+	db "סיקינג@"
 PonytaName:
-	db "סיחום@"
+	db "פוניטה@"
 RapidashName:
-	db "סוסורף@"
+	db "רפידאש@"
 RattataName:
-	db "עכברסס@"
+	db "רטאטה@"
 RaticateName:
-	db "הדברוש@"
+	db "רטיקייט@"
 NidorinoName:
-	db "חודן@"
+	db "נידורינו@"
 NidorinaName:
-	db "חודנית@"
+	db "נידורינה@"
 GeodudeName:
-	db "בחורקע@"
+	db "ג'יודוד@"
 PorygonName:
-	db "מצולען@"
+	db "פוריגון@"
 AerodactylName:
-	db "אווירונעף@"
+	db "אירודקטייל@"
 MagnemiteName:
-	db "שואבן@"
+	db "מגנימייט@"
 CharmanderName:
-	db "גחומט@"
+	db "צ'רמנדר@"
 SquirtleName:
-	db "שפריצב@"
+	db "סקווירטל@"
 CharmeleonName:
-	db "חזיזיקית@"
+	db "צ'רמיליון@"
 WartortleName:
-	db "קרבצב@"
+	db "וורטורטל@"
 CharizardName:
-	db "לטאש@"
+	db "צ'אריזארד@"
 OddishName:
-	db "צנוזר@"
+	db "אודיש@"
 GloomName:
-	db "פריכאון@"
+	db "גלום@"
 VileplumeName:
-	db "עשנבל@"
+	db "ויילפלום@"
 BellsproutName:
-	db "פעמוניצן@"
+	db "בלספראווט@"
 WeepinbellName:
-	db "דמעמון@"
+	db "וויפינבל@"
 VictreebelName:
-	db "תהילעמון@"
+	db "ויקטריבל@"
 MissingnoName:
 	db "MISSINGNO.@"

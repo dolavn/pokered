@@ -269,7 +269,7 @@ HandlePokedexListMenu:
 	text_end
 .getPokemonName
 	call PokedexToIndex
-	ld a, %00100000
+	ld a, %00000000
 	ld [wNikudFlag], a
 	call GetMonName
 .skipGettingName

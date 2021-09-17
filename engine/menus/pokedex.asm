@@ -462,7 +462,7 @@ ShowPokedexDataInternal:
 	ld de, HeightWeightText
 	call PlaceString
 
-	ld a, %00100000 ; Nikud stuff
+	ld a, %00000000 ; Nikud stuff
 	ld [wNikudFlag], a
 	call GetMonName
 	push de

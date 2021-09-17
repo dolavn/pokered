@@ -681,6 +681,7 @@ NextNikudLine:
 	; Input: de - first line of nikud name
 	; Output: de - second line of nikud name
 	; Note: hl also updates to equal de.
+	ret
 	ld h, d
 	ld l, e
 	.loop

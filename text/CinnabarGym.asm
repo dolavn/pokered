@@ -3,7 +3,7 @@ _BlaineBattleText::
 
 	para "אני בליין! אני"
 	line "המנהיג של"
-	cont "מכון הצנובר!"
+	cont "מכון סיניבר!"
 
 	para "ה#ימונים"
 	line "הלוהטים שלי"

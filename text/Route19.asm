@@ -152,6 +152,6 @@ _Route19AfterBattleText10::
 
 _Route19Text11::
 	text "דרך החוף 91"
-	line "עיר השושנה -"
+	line "העיר פיושה -"
 	cont "איי האדווה"
 	done

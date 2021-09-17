@@ -19,7 +19,7 @@ FuchsiaGym_Script:
 	ret
 
 .CityName:
-	db "עיר השושנה@"
+	db "העיר פיושה@"
 
 .LeaderName:
 	db "קוגה@"

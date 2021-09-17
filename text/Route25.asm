@@ -20,7 +20,7 @@ _Route25BattleText2::
 	text "אבא לקח אותי"
 	line "למסיבה נהדרת"
 	cont "על הספינה אנה"
-	cont "בעיר הארגמן!"
+	cont "בעיר וורמיליון!"
 	done
 
 _Route25EndBattleText2::

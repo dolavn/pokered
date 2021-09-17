@@ -210,7 +210,7 @@ _SaffronGymEndBattleText6::
 	prompt
 
 _SaffronGymAfterBattleText6::
-	text "בעבר, בעיר הזעפרן"
+	text "בעבר, בעיר סאפרון"
 	line "היו שני מכוני"
 	cont "#ימון."
 
@@ -222,7 +222,7 @@ _SaffronGymAfterBattleText6::
 	done
 
 _SaffronGymBattleText7::
-	text "מכון הזעפרן ידוע"
+	text "מכון סאפרון ידוע"
 	line "בבעלות האוב שבו!"
 
 	para "אתה משתוקק לפגוש"

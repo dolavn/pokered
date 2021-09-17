@@ -22,7 +22,7 @@ _CeladonMansion1Text4::
 	text_end
 
 _CeladonMansion1Text5::
-	text "אחוזת האביב"
+	text "אחוזת סלדון"
 	line "סוויטת המנהל"
 	done
 

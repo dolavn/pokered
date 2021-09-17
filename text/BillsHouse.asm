@@ -67,7 +67,7 @@ _SSTicketNoRoomText::
 
 _BillsHouseText_1e8cb::
 	text "הספינה אנה עוגנת"
-	line "בעיר הארגמן."
+	line "בעיר וורמיליון."
 	cont "כל הנוסעים"
 	cont "בספינה הם מאמני"
 	cont "#ימון!"

@@ -12,7 +12,7 @@ _CeladonHotelText2::
 	line "אחי ועם החבר"
 	cont "שלי."
 
-	para "עיר האביב כל כך"
+	para "העיר סלדון כל כך"
 	line "יפה!"
 	done
 

@@ -34,7 +34,7 @@ _SSAnne10EndBattleText2::
 _SSAnne10AfterBattleText2::
 	text "ראית את"
 	line "את כהן הדיג"
-	cont "בעיר הארגמן?"
+	cont "בעיר וורמיליון?"
 	done
 
 _SSAnne10BattleText3::

@@ -8,6 +8,6 @@ _CeladonPokecenterText2::
 _CeladonPokecenterText3::
 	text "רכבתי לכאן בעליה"
 	line "בשביל האופניים"
-	cont "מעיר השושנה!"
+	cont "מהעיר פיושה!"
 	done
 

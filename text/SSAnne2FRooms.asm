@@ -21,7 +21,7 @@ _SSAnne9Text_61c10::
 _SSAnne9Text_61c1f::
 	text "היית באיזור"
 	line "הספארי בעיר"
-	cont "השושנה?"
+	cont "פיושה?"
 
 	para "יש שם הרבה"
 	line "סוגי #ימונים"

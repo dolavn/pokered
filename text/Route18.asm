@@ -48,8 +48,8 @@ _Route18AfterBattleText3::
 
 _Route18Text4::
 	text "דרך 81"
-	line "עיר האביב -"
-	cont "עיר השושנה"
+	line "העיר סלדון -"
+	cont "העיר פיושה"
 	done
 
 _Route18Text5::

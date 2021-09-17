@@ -34,7 +34,7 @@ _FuchsiaCityText5::
 	done
 
 _FuchsiaCityText11::
-	text "עיר השושנה"
+	text "העיר פיושה"
 	line "שטפו את עיניכם"
 	cont "בורוד המרהיב!"
 	done
@@ -55,7 +55,7 @@ _FuchsiaCityText17::
 	done
 
 _FuchsiaCityText18::
-	text "עיר השושנה"
+	text "העיר פיושה"
 	line "מכון #ימון"
 	cont "מנהיג: קוגה"
 

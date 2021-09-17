@@ -95,6 +95,6 @@ _Route6AfterBattleText6::
 _Route6Text7::
 	text "מעבר תת קרקעי"
 	line "העיר סרולין -"
-	cont "עיר הארגמן"
+	cont "העיר וורמיליון"
 	done
 

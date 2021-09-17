@@ -221,7 +221,7 @@ _MtMoonPokecenterBenchGuyText::
 	done
 
 _RockTunnelPokecenterGuyText::
-	text "שמעתי שעיר הלבנדר"
+	text "שמעתי שהעיר לבנדר"
 	line "רדופת רוחות!"
 	done
 
@@ -463,7 +463,7 @@ _OakLabEmailText::
 
 	para "מפקדת ליגת"
 	line "ה#ימון"
-	cont "רמת הניל"
+	cont "רמת אינדיגו"
 
 	para "נ.ב: פרופ' אוק,"
 	line "בבקשה, בוא לבקר!"
@@ -604,7 +604,7 @@ _FightingDojoText::
 	done
 
 _IndigoPlateauHQText::
-	text "רמת הניל"
+	text "רמת אינדיגו"
 	line "מפקדת ליגת"
 	cont "ה#ימון"
 	done
@@ -815,7 +815,7 @@ _DroppedHiddenCoinsText::
 	done
 
 _IndigoPlateauStatuesText1::
-	text "רמת הניל"
+	text "רמת אינדיגו"
 	prompt
 
 _IndigoPlateauStatuesText2::

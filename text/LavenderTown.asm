@@ -38,7 +38,7 @@ _LavenderTownText3::
 	done
 
 _LavenderTownText4::
-	text "עיר הלבנדר"
+	text "העיר לבנדר"
 	line "העיר הסגולה"
 	cont "והאצילית"
 	done

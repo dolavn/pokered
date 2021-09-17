@@ -30,6 +30,6 @@ _Route11GateUpstairsText_494d5::
 
 	para "הדרך היחידה להגיע"
 	line "מעיר סרולין לעיר"
-	cont "הלבנדר היא דרך"
+	cont "לבנדר היא דרך"
 	cont "מנהרת הסלע."
 	done

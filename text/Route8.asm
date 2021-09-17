@@ -79,7 +79,7 @@ _Route8EndBattleText5::
 _Route8AfterBattleText5::
 	text "אנחנו תקועים כאן"
 	line "בגלל שערי הכניסה"
-	cont "של עיר הזעפרן."
+	cont "של העיר סאפרון."
 	done
 
 _Route8BattleText6::
@@ -109,8 +109,8 @@ _Route8EndBattleText7::
 	prompt
 
 _Route8AfterBattleText7::
-	text "שומר הסף של עיר"
-	line "הזעפרן לא מרשה"
+	text "שומר הסף של העיר"
+	line "סאפרון לא מרשה"
 	cont "לא מרשה לנו"
 	cont "להיכנס. הוא כזה"
 	cont "לא נחמד!"
@@ -154,7 +154,7 @@ _Route8AfterBattleText9::
 
 _Route8Text10::
 	text "דרך תת קרקעית"
-	line "עיר האביב -"
-	cont "עיר הלבנדר"
+	line "העיר סלדון -"
+	cont "העיר לבנדר"
 	done
 

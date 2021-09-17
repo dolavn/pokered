@@ -31,7 +31,7 @@ _Route17AfterBattleText2::
 
 _Route17BattleText3::
 	text "אתה הולך"
-	line "לשושנה?"
+	line "לפיושה?"
 	done
 
 _Route17EndBattleText3::
@@ -176,8 +176,8 @@ _Route17Text13::
 
 _Route17Text14::
 	text "דרך 17"
-	line "עיר האביב -"
-	cont "עיר השושנה"
+	line "העיר סלדון -"
+	cont "העיר פיושה"
 	done
 
 _Route17Text15::

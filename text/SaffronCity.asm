@@ -13,7 +13,7 @@ _SaffronCityText3::
 	done
 
 _SaffronCityText4::
-	text "עיר הזעפרן שייכת"
+	text "העיר סאפרון שייכת"
 	line "לצוות רוקט!"
 	done
 
@@ -49,7 +49,7 @@ _SaffronCityText9::
 
 _SaffronCityText10::
 	text "אנשים בטוח ינהרו"
-	line "חזרה לזעפרן"
+	line "חזרה לסאפרון"
 	cont "עכשיו."
 	done
 
@@ -90,7 +90,7 @@ _SaffronCityText15::
 	done
 
 _SaffronCityText16::
-	text "עיר הזעפרן"
+	text "העיר סאפרון"
 	line "ארץ המסחר"
 	cont "הזהובה והנוצצת"
 	done
@@ -100,7 +100,7 @@ _SaffronCityText17::
 	done
 
 _SaffronCityText18::
-	text "עיר הזעפרן"
+	text "העיר סאפרון"
 	line "מכון #ימונים"
 	cont "מנהלת: סברינה"
 

@@ -10,12 +10,12 @@ _UGPathRoute7EntranceUnusedText_5d773::
 _UGPathRoute7EntranceUnusedText_5d778::
 	text "לצוות רוקט"
 	line "יש מקום מסתור"
-	cont "בעיר האביב?"
+	cont "בעיר סלדון?"
 	done
 
 _UGPathRoute7EntranceUnusedText_5d77d::
 	text "אתה פה כדי לקנות"
-	line "בעיר האביב?"
+	line "בעיר סלדון?"
 
 	para "פשוט צא החוצה"
 	line "והתקדם מערבה!"
@@ -24,8 +24,8 @@ _UGPathRoute7EntranceUnusedText_5d77d::
 _UGPathRoute7EntranceUnusedText_5d782::
 	text "המעבר התת קרקעי"
 	line "עובר מתחת לעיר"
-	cont "הזעפרן ומוביל"
-	cont "לעיר הלבנדר."
+	cont "סאפרון ומוביל"
+	cont "לעיר לבנדר."
 
 	para "אם אתה רוצה להגיע"
 	line "לעיר סרולין,"

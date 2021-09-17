@@ -91,7 +91,7 @@ _CeladonGameCornerText_48dca::
 	line "טובים לעשות,"
 	cont "אלופצ'יק!"
 
-	para "בראש מכון האביב"
+	para "בראש מכון סלדון"
 	line "עומדת המנהיגה"
 	cont "אריקה!"
 	cont "היא משתמשת"

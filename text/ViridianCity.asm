@@ -20,7 +20,7 @@ _ViridianCityText_19122::
 
 _ViridianCityText_19127::
 	text "המנהיג של מכון"
-	line "הארגמן חזר!"
+	line "וירידיאן חזר!"
 	done
 
 _ViridianCityText_1914d::

@@ -116,5 +116,5 @@ _RockTunnel1AfterBattleText7::
 _RockTunnel1Text8::
 	text "מנהרת הסלע"
 	line "העיר סרולין -"
-	cont "עיר הלבנדר"
+	cont "העיר לבנדר"
 	done

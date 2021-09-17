@@ -37,7 +37,7 @@ _Route14AfterBattleText2::
 
 _Route14BattleText3::
 	text "יש מבצעים על מ”מים"
-	line "בעיר האביב!"
+	line "בעיר סלדון!"
 	cont "אבל, רק למעט"
 	cont "אנשים יש מ”נים!"
 	done
@@ -172,6 +172,6 @@ _Route14AfterBattleText10::
 
 _Route14Text11::
 	text "דרך 41"
-	line "ממערב: עיר"
-	cont "השושנה"
+	line "ממערב: העיר"
+	cont "פיושה"
 	done

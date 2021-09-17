@@ -1,6 +1,6 @@
 _CeladonCityText1::
 	text "תפסתי את הקופינג"
-	line "שלי באי הצנובר!"
+	line "שלי באי סיניבר!"
 
 	para "הוא נחמד, אבל הוא"
 	line "נושף אדי רעל"
@@ -107,13 +107,13 @@ _CeladonCityText10::
 	done
 
 _CeladonCityText11::
-	text "עיר האביב"
+	text "העיר סלדון"
 	line "העיר שבה חולמים"
 	cont "בצבעי הקשת"
 	done
 
 _CeladonCityText13::
-	text "עיר האביב"
+	text "העיר סלדון"
 	line "מכון ה#ימון"
 	cont "מנהיגה: אריקה"
 
@@ -122,7 +122,7 @@ _CeladonCityText13::
 	done
 
 _CeladonCityText14::
-	text "אחוזת האביב"
+	text "אחוזת סלדון"
 	done
 
 _CeladonCityText15::

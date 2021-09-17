@@ -131,7 +131,7 @@ _Route12AfterBattleText7::
 
 _Route12Text11::
 	text "דרך 12"
-	line "מצפון: עיר הלבנדר"
+	line "מצפון: העיר לבנדר"
 	done
 
 _Route12Text12::

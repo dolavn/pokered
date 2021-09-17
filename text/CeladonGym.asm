@@ -10,7 +10,7 @@ _CeladonGymText_48a5e::
 
 	para "שמי הוא אריקה."
 	line "אני מנהיגת מכון"
-	cont "האביב."
+	cont "סלדון."
 
 	para "אני מלמדת את"
 	line "האומנות של סידור"
@@ -201,7 +201,7 @@ _CeladonGymAfterBattleText7::
 
 _CeladonGymBattleText8::
 	text "ברוך הבא למכון"
-	line "האביב!"
+	line "סלדון!"
 
 	para "אל תעז להמעיט"
 	line "בערכו של הכוח"

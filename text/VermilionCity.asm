@@ -82,11 +82,11 @@ _VermilionCityText6::
 	cont "יוקרתית ידועה."
 
 	para "אנחנו מבקרים בעיר"
-	line "הארגמן פעם בשנה."
+	line "וורמיליון פעם בשנה."
 	done
 
 _VermilionCityText7::
-	text "עיר הארגמן"
+	text "העיר וורמיליון"
 	line "עיר הנמל הצבועה"
 	cont "בצבעי השקיעה"
 	done
@@ -99,11 +99,11 @@ _VermilionCityText8::
 	cont "השביל."
 
 	para "כדי להגיע לעיר"
-	line "הלבנדר, השתמשו"
+	line "לבנדר, השתמשו"
 	cont "במסלול החלופי דרך"
 	cont "מנהרת הסלע."
 
-	para "משטרת עיר הארגמן"
+	para "משטרת העיר וורמיליון"
 	done
 
 _VermilionCityText11::
@@ -114,7 +114,7 @@ _VermilionCityText11::
 	done
 
 _VermilionCityText12::
-	text "עיר הארגמן"
+	text "העיר וורמיליון"
 	line "מכון ה#ימון"
 	cont "מנהיג: סגן סרג'"
 
@@ -122,5 +122,5 @@ _VermilionCityText12::
 	done
 
 _VermilionCityText13::
-	text "נמל הארגמן"
+	text "נמל וורמיליון"
 	done

@@ -24,7 +24,7 @@ CinnabarGymScript_75759:
 	jp LoadGymLeaderAndCityName
 
 .CityName:
-	db "אי הצנובר@"
+	db "האי סיניבר@"
 
 .LeaderName:
 	db "בליין@"

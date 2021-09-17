@@ -17,7 +17,7 @@ CeladonGym_Script:
 	jp LoadGymLeaderAndCityName
 
 .CityName:
-	db "עיר האביב@"
+	db "העיר סלדון@"
 
 .LeaderName:
 	db "אריקה@"

@@ -54,8 +54,8 @@ _Route16EndBattleText4::
 
 _Route16AfterBattleText4::
 	text "אתה גם יכול להגיע"
-	line "לעיר השושנה"
-	cont "מעיר הארגמן דרך"
+	line "לעיר פיושה"
+	cont "מהעיר וורמיליון דרך"
 	cont "שביל החוף."
 	done
 
@@ -116,6 +116,6 @@ _Route16Text8::
 
 _Route16Text9::
 	text "דרך 61"
-	line "עיר האביב -"
-	cont "עיר השושנה"
+	line "העיר סלדון -"
+	cont "העיר פיושה"
 	done

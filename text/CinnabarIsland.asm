@@ -4,7 +4,7 @@ _CinnabarIslandText8::
 
 _CinnabarIslandText1::
 	text "בליין ממכון"
-	line "הצנובר הוא אדם"
+	line "סיניבר הוא אדם"
 	cont "משונה שחי באי"
 	cont "כבר עשרות שנים."
 	done
@@ -16,7 +16,7 @@ _CinnabarIslandText2::
 	done
 
 _CinnabarIslandText3::
-	text "אי הצנובר"
+	text "האי סיניבר"
 	line "העיירה הבוערת של"
 	cont "תשוקה לוהטת"
 	done
@@ -26,7 +26,7 @@ _CinnabarIslandText6::
 	done
 
 _CinnabarIslandText7::
-	text "אי הצנובר"
+	text "האי סיניבר"
 	line "מכון ה#ימון"
 	cont "מנהיג: בליין"
 

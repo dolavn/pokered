@@ -121,8 +121,8 @@ _Route20AfterBattleText8::
 
 _Route20BattleText9::
 	text "שחיתי לכאן"
-	line "כל הדרך מאי"
-	cont "הצנובר!"
+	line "כל הדרך מהאי"
+	cont "סיניבר!"
 	done
 
 _Route20EndBattleText9::
@@ -133,11 +133,11 @@ _Route20EndBattleText9::
 _Route20AfterBattleText9::
 	text "#ימונים השתלטו"
 	line "על אחוזה נטושה"
-	cont "באי הצנובר!"
+	cont "באי סיניבר!"
 	done
 
 _Route20BattleText10::
-	text "בצנובר, האי במערב,"
+	text "בסיניבר, האי במערב,"
 	line "יש מעבדת"
 	cont "#ימון."
 	done
@@ -147,7 +147,7 @@ _Route20EndBattleText10::
 	prompt
 
 _Route20AfterBattleText10::
-	text "צנובר"
+	text "סיניבר"
 	line "הוא אי געשי!"
 	done
 

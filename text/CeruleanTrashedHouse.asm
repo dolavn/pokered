@@ -19,7 +19,7 @@ _CeruleanTrashedText_1d6b0::
 	line "כבר לא ישוב!"
 
 	para "החלטתי ללמד את"
-	line "חפיד איך לחפור"
+	line "דיגלט איך לחפור"
 	cont "בלי מ”מ!"
 	done
 

@@ -30,8 +30,8 @@ _Mansion3AfterBattleText2::
 
 _Mansion3Text5::
 	text "יומן: 6 לפברואר"
-	line "תש ילד."
+	line "מיו ילד."
 
 	para "כינינו את היילוד"
-	line "תשני."
+	line "מיוטו."
 	done

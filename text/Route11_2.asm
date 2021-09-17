@@ -27,5 +27,5 @@ _Route11AfterBattleText10::
 	done
 
 _Route11Text11::
-	text "המערה של חפיד"
+	text "המערה של דיגלט"
 	done

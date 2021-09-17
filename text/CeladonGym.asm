@@ -8,7 +8,7 @@ _CeladonGymText_48a5e::
 	line "נדמה שנרדמתי."
 	cont "ברוך הבא."
 
-	para "שמי הוא איריס."
+	para "שמי הוא אריקה."
 	line "אני מנהיגת מכון"
 	cont "האביב."
 
@@ -102,7 +102,7 @@ _CeladonGymEndBattleText2::
 
 _CeladonGymAfterBattleText2::
 	text "פיכס!"
-	line "אני מקווה שאיריס"
+	line "אני מקווה שאריקה"
 	cont "תכסח לך ת'צורה!"
 	done
 
@@ -175,7 +175,7 @@ _CeladonGymEndBattleText6::
 
 _CeladonGymAfterBattleText6::
 	text "המנהיגה שלנו,"
-	line "איריס - היא אולי"
+	line "אריקה - היא אולי"
 	cont "שקטה, אבל היא"
 	cont "מאוד מוכשרת!"
 	done

@@ -9,7 +9,7 @@ _FuchsiaPokecenterText1::
 
 _FuchsiaPokecenterText3::
 	text "יש שביל צר מערבה"
-	line "מעיר הברקת."
+	line "מהעיר ווירידיאן."
 
 	para "הוא מוביל למפקדת"
 	line "ליגת ה#ימון."

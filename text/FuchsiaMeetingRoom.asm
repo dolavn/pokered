@@ -1,13 +1,13 @@
 _FuchsiaMeetingRoomText1::
 	text "נתנו לפקח את"
-	line "הכינוי כיסלאט."
+	line "הכינוי סלוופוק."
 
-	para "גם לו וגם לכיסלאט"
+	para "גם לו וגם לסלוופוק"
 	line "יש הבעה ריקנית!"
 	done
 
 _FuchsiaMeetingRoomText2::
-	text "כיסלאט מאד משכיל"
+	text "סלוופוק מאד משכיל"
 	line "בנושאי #ימון!"
 
 	para "אפילו יש לו"
@@ -17,7 +17,7 @@ _FuchsiaMeetingRoomText2::
 	done
 
 _FuchsiaMeetingRoomText3::
-	text "כיסלאט נכנס, אבל"
+	text "סלוופוק נכנס, אבל"
 	line "לא הצלחתי להבין"
 	cont "אותו."
 

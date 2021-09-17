@@ -1,7 +1,7 @@
 _Route4Text1::
 	text "אווץ'! מעדתי על"
 	line "#ימון סלעי"
-	cont "בחורקע!"
+	cont "ג'יודוד!"
 	done
 
 _Route4BattleText1::
@@ -32,6 +32,6 @@ _Route4Text5::
 _Route4Text6::
 	text "דרך 4"
 	line "הר הירח -"
-	cont "עיר הטורקיז"
+	cont "העיר סרולין"
 	done
 

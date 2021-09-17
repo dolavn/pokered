@@ -116,7 +116,7 @@ _Route20EndBattleText8::
 _Route20AfterBattleText8::
 	text "אתה חושב שהפנינים"
 	line "שלי יגדלו בתוך"
-	cont "מבוצדף?"
+	cont "קלוייסטר?"
 	done
 
 _Route20BattleText9::

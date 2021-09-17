@@ -8,7 +8,7 @@ _SaffronHouse1Text1::
 	done
 
 _SaffronHouse1Text2::
-	text "יונדי: קורוקוקו!@"
+	text "פידג'י: קורוקוקו!@"
 	text_end
 
 _SaffronHouse1Text3::

@@ -69,7 +69,7 @@ _VermilionGymEndBattleText1::
 _VermilionGymAfterBattleText1::
 	text "הדלת לא נפתחת?"
 
-	para "סרן ברק תמיד היה"
+	para "סגן סרג' תמיד היה"
 	line "זהיר כזה!" 
 	done
 
@@ -87,7 +87,7 @@ _VermilionGymEndBattleText2::
 _VermilionGymAfterBattleText2::
 	text "אוקי, אני אדבר!"
 
-	para "סרן ברק אמר שהוא"
+	para "סגן סרג' אמר שהוא"
 	line "הסתיר מתגי דלתות"
 	cont "חבויים איפשהו!"
 	done
@@ -102,7 +102,7 @@ _VermilionGymEndBattleText3::
 	prompt
 
 _VermilionGymAfterBattleText3::
-	text "סרן ברק החביא"
+	text "סגן סרג' החביא"
 	line "שני מתגים לדלת!"
 	cont "הנה רמז!"
 
@@ -115,7 +115,7 @@ _VermilionGymFanPreBattleText::
 	text "יו!"
 	line "אלופצ'יק!"
 
-	para "לסרן ברק יש"
+	para "לסגן סרג' יש"
 	line "כינוי. אנשים"
 	cont "מכנים אותו"
 	cont "האמריקאי המחשמל!"
@@ -129,7 +129,7 @@ _VermilionGymFanPreBattleText::
 	cont "ממהלכי השיתוק"
 	cont "שלו!"
 
-	para "סרן ברק מאוד" 
+	para "סגן סרג' מאוד" 
 	line "זהיר!"
 
 	para "תצטרך לפצח את"

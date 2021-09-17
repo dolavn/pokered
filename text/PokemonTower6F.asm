@@ -1,7 +1,7 @@
 _PokemonTower2Text_60c1f::
 	text "הרוח היתה נשמתה"
 	line "חסרת המנוחה של"
-	cont "אמו של רשרש!"
+	cont "אמו של קיובון!"
 	done
 
 _PokemonTower2Text_60c24::

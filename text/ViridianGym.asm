@@ -14,7 +14,7 @@ _ViridianGymText_74ace::
 
 	para "פעם נוספת, אתה"
 	line "תתמודד מול"
-	cont "אלפרון, המאמן"
+	cont "ג'ובאני, המאמן"
 	cont "החזק מכולם!"
 	done
 
@@ -192,7 +192,7 @@ _ViridianGymAfterBattleText7::
 	done
 
 _ViridianGymBattleText8::
-	text "מכון הברקת היה"
+	text "מכון ווירידיאן היה"
 	line "סגור הרבה זמן,"
 	cont "אבל עכשיו המנהל"
 	cont "שלנו חזר!"
@@ -215,7 +215,7 @@ _ViridianGymText_74bd4::
 
 	para "אפילו אני לא"
 	line "יודע מיהו מנהל"
-	cont "מכון הברקת!"
+	cont "מכון ווירידיאן!"
 
 	para "זה יהיה הקרב"
 	line "הקשוח ביותר מבין"
@@ -228,6 +228,6 @@ _ViridianGymText_74bd4::
 
 _ViridianGymText_74bd9::
 	text "לא נכון!"
-	line "אלפרון היה מנהיג"
+	line "ג'ובאני היה מנהיג"
 	cont "המכון של העיר?"
 	done

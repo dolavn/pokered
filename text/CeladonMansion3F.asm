@@ -10,13 +10,13 @@ _GraphicArtistText::
 
 _WriterText::
 	text "אני כתבתי את"
-	line "הסיפור! איריס"
+	line "הסיפור! אריקה"
 	cont "נהדרת, נכון?"
 
-	para "אני גם אוהב את טל"
+	para "אני גם אוהב את מיסטי"
 	line "מאוד!"
 
-	para "אה, וגם קסם,"
+	para "אה, וגם סברינה,"
 	line "אני מחבב אותה"
 	cont "מאוד!"
 	done

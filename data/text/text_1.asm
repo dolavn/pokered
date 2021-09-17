@@ -72,13 +72,13 @@ _NoMoreRoomForItemText::
 _OaksAideHiText::
 	text "היי! זוכר אותי?"
 	line "אני העוזר של"
-	cont "פרופ' אלון!"
+	cont "פרופ' אוק!"
 
 	para "אם תפסת @"
 	text_decimal hOaksAideRequirement, 1, 3
 	text ""
 	line "סוגים שונים של"
-	cont "#ימון, אלון"
+	cont "#ימון, אוק"
 	cont "ביקש שאתן לך"
 	cont "@"
 	text_ram wOaksAideRewardItemName

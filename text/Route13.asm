@@ -155,8 +155,8 @@ _Route13EndBattleText11::
 
 _Route13AfterBattleText11::
 	text "הלוואי שיכולתי"
-	line "לעוף כמו יונדי"
-	cont "ויונה-עשרה..."
+	line "לעוף כמו פידג'י"
+	cont "ופידג'יוטו..."
 	done
 
 _Route13Text11::

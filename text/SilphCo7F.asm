@@ -11,7 +11,7 @@ _MeetLaprasGuyText::
 	prompt
 
 _HeresYourLaprasText::
-	text "זה תכוגית. הוא"
+	text "זה לפרס. הוא"
 	line "מאוד נבון."
 
 	para "שמרנו אותו במעבדה,"
@@ -20,7 +20,7 @@ _HeresYourLaprasText::
 
 	para "אני חושב שאתה"
 	line "תהיה מאמן מצוין"
-	cont "לתכוגית!"
+	cont "ללפרס!"
 
 	para "הוא שחיין מצוין"
 	line "הוא יתן לך"

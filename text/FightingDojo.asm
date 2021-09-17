@@ -112,13 +112,13 @@ _FightingDojoAfterBattleText4::
 _WantHitmonleeText::
 	text "אתה רוצה את"
 	line "ה#ימון הבועט"
-	cont "הכמפמדג'ה?"
+	cont "היטמונלי?"
 	done
 
 _WantHitmonchanText::
 	text "אתה רוצה את"
 	line "ה#ימון המתאגרף"
-	cont "הכמפארד?"
+	cont "היטמונצ'ן?"
 	done
 
 _OtherHitmonText::

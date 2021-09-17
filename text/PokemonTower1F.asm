@@ -11,14 +11,14 @@ _PokemonTower1Text2::
 
 _PokemonTower1Text3::
 	text "באתי להתפלל לעילוי"
-	line "נשמת החמשדון שלי."
+	line "נשמת הקלפרי שלי."
 
 	para "סניפף! אני לא יכול"
 	line "להפסיק לבכות..."
 	done
 
 _PokemonTower1Text4::
-	text "נהמיש שלי..."
+	text "גרולייט שלי..."
 	line "למה מתת?"
 	done
 

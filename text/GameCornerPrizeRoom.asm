@@ -1,6 +1,6 @@
 _CeladonPrizeRoomText1::
 	text "אני כל-כך רוצה"
-	line "מצולען!"
+	line "פוריגון!"
 
 	para "אבל, כל-כך קשה"
 	line "לזכות במשחקי מזל!"

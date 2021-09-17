@@ -29,7 +29,7 @@ _Mansion2Text4::
 	text "יומן: 10 ליולי"
 	line "נתנו ל#ימון"
 	cont "חדש שהתגלה את"
-	cont "השם תש."
+	cont "השם מיו."
 	done
 
 _Mansion2Text_520c2::

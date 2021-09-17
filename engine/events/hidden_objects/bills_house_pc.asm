@@ -123,10 +123,10 @@ BillsHousePokemonListText1:
 	text_end
 
 BillsMonListText:
-	db   "פאתו"
-	next "נורידן"
-	next "זעידן"
-	next "אדידן"
+	db   "איבי"
+	next "פלריאון"
+	next "ג'ולטיאון"
+	next "וויפוריאן"
 	next "ביטול@"
 
 BillsHousePokemonListText2:

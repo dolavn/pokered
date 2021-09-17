@@ -1,5 +1,5 @@
 _KogaBeforeBattleText::
-	text "צפע: פחהחהחהחה!"
+	text "קוגה: פחהחהחהחה!"
 
 	para "ילדון קטן כמוך,"
 	line "מעז לאתגר..."

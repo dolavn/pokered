@@ -182,7 +182,7 @@ _MonCannotLearnMachineMoveText::
 	prompt
 
 _ItemUseNotTimeText::
-	text "אלון: <PLAYER>!"
+	text "אוק: <PLAYER>!"
 	line "זה לא הזמן המתאים"
 	cont "להשתמש בפריט הזה!"
 	prompt

@@ -96,7 +96,7 @@ _Route25EndBattleText6::
 _Route25AfterBattleText6::
 	text "אתה הגעת מהר הירח?"
 	line "תוכל להביא לי"
-	cont "חמשדון?"
+	cont "קלפרי?"
 	done
 
 _Route25BattleText7::
@@ -113,7 +113,7 @@ _Route25EndBattleText7::
 _Route25AfterBattleText7::
 	text "אוף!"
 	line "כשהייתי במערה,"
-	cont "אצלף נשך אותי."
+	cont "זובאט נשך אותי."
 	done
 
 _Route25BattleText8::
@@ -147,7 +147,7 @@ _Route25EndBattleText9::
 _Route25AfterBattleText9::
 	text "השביל למטה"
 	line "הוא קיצור דרך"
-	cont "לעיר הטורקיז."
+	cont "לעיר סרולין."
 	done
 
 _Route25Text11::

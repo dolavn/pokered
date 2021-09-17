@@ -57,7 +57,7 @@ _FuchsiaCityText17::
 _FuchsiaCityText18::
 	text "עיר השושנה"
 	line "מכון #ימון"
-	cont "מנהיג: צפע"
+	cont "מנהיג: קוגה"
 
 	para "מאסטר הנינג'ה"
 	line "הרעיל."
@@ -72,14 +72,14 @@ _FuchsiaCityChanseyText::
 	prompt
 
 _FuchsiaCityVoltorbText::
-	text "שם: חשמלמל"
+	text "שם: וולטרוב"
 
 	para "נראה ממש"
 	line "כמו פוכדור."
 	prompt
 
 _FuchsiaCityKangaskhanText::
-	text "שם: כיסבל"
+	text "שם: קנגסקן"
         para "ימון אמהי#"
 	line "שמגדלת את"
 	cont "צאצאיה בתוך"
@@ -87,28 +87,28 @@ _FuchsiaCityKangaskhanText::
 	prompt
 
 _FuchsiaCitySlowpokeText::
-	text "שם: כיסלאט"
+	text "שם: סלוופוק"
 
 	para "חביב ומאוד"
 	line "איטי."
 	prompt
 
 _FuchsiaCityLaprasText::
-	text "שם: תכוגית"
+	text "שם: לפרס"
 
 	para "ידוע גם"
 	line "כמלך הימים."
 	prompt
 
 _FuchsiaCityOmanyteText::
-	text "שם: סילוני"
+	text "שם: אומנייט"
 
 	para "ימון ששוחזר#"
 	line "ממאובן"
 	prompt
 
 _FuchsiaCityKabutoText::
-	text "שם: פרסדה"
+	text "שם: קאבוטו"
 
 	para "ימון ששוחזר#"
 	line "ממאובן"

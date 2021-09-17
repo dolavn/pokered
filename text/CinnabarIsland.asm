@@ -3,7 +3,7 @@ _CinnabarIslandText8::
 	done
 
 _CinnabarIslandText1::
-	text "להב ממכון"
+	text "בליין ממכון"
 	line "הצנובר הוא אדם"
 	cont "משונה שחי באי"
 	cont "כבר עשרות שנים."
@@ -28,7 +28,7 @@ _CinnabarIslandText6::
 _CinnabarIslandText7::
 	text "אי הצנובר"
 	line "מכון ה#ימון"
-	cont "מנהיג: להב"
+	cont "מנהיג: בליין"
 
 	para "אלוף החידות"
 	line "חמום המח!"

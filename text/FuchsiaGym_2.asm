@@ -85,7 +85,7 @@ _FuchsiaGymEndBattleText2::
 
 _FuchsiaGymAfterBattleText2::
 	text "אני אמשיך להתאמן"
-	line "בהדרכתו של צפע,"
+	line "בהדרכתו של קוגה,"
 	cont "מאסטר הנינג'ה"
 	cont "שלי!"
 	done
@@ -134,7 +134,7 @@ _FuchsiaGymAfterBattleText4::
 _FuchsiaGymBattleText5::
 	text "גם אני לומד את"
 	line "סודות הנינג'ה"
-	cont "ממאסטר צפע!"
+	cont "ממאסטר קוגה!"
 
 	para "לנינג'ות יש מסורת"
 	line "של שימוש בחיות!"
@@ -150,8 +150,8 @@ _FuchsiaGymAfterBattleText5::
 	done
 
 _FuchsiaGymBattleText6::
-	text "מאסטר צפע מגיע"
-	line "לשושלת ארוכה של"
+	text "מאסטר קוגה מגיע"
+	line "משושלת ארוכה של"
 	cont "נינג'ות!"
 
 	para "מאיזו שושלת אתה"
@@ -181,7 +181,7 @@ _FuchsiaGymText_7564e::
 	line "בקירות בלתי-"
 	cont "נראים!"
 
-	para "אולי זה נראה שצפע"
+	para "אולי זה נראה שקוגה"
 	line "קרוב, אבל הדרך"
 	cont "אליו חסומה!"
 

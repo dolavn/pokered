@@ -22,7 +22,7 @@ FuchsiaGym_Script:
 	db "עיר השושנה@"
 
 .LeaderName:
-	db "צפע@"
+	db "קוגה@"
 
 FuchsiaGymScript_75477:
 	xor a

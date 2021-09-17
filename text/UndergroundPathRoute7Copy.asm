@@ -28,6 +28,6 @@ _UGPathRoute7EntranceUnusedText_5d782::
 	cont "לעיר הלבנדר."
 
 	para "אם אתה רוצה להגיע"
-	line "לעיר הטורקיז,"
+	line "לעיר סרולין,"
 	cont "לך לבניין ממול."
 	done

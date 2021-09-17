@@ -6,7 +6,7 @@ _PewterGymText_5c4a3::
 	line "המוכשר!"
 
 	para "לך למכון בעיר"
-	line "הטורקיז כדי לבחון"
+	line "סרולין כדי לבחון"
 	cont "את היכולות שלך!"
 	done
 
@@ -79,7 +79,7 @@ _PewterGymBattleText1::
 
 	para "אתה עוד במרחק שנות"
 	line "אור מהקרב מול"
-	cont "צור!"
+	cont "ברוק!"
 	done
 
 _PewterGymEndBattleText1::
@@ -92,7 +92,7 @@ _PewterGymEndBattleText1::
 
 _PewterGymAfterBattleText1::
 	text "אתה די לוהט. אבל"
-	line "לא לוהט כמו צור!"
+	line "לא לוהט כמו ברוק!"
 	done
 
 _PewterGymText_5c515::

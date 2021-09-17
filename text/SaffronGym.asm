@@ -80,7 +80,7 @@ _SaffronGymText_5d1e6::
 	text "יו!"
 	line "אלופצ'יק!"
 
-	para "ה#ימונים של קסם"
+	para "ה#ימונים של סברינה"
 	line "משתמשים בכוחות"
 	cont "על-חושיים במקום"
 	cont "במכות!"
@@ -107,7 +107,7 @@ _SaffronGymText_5d1eb::
 	done
 
 _SaffronGymBattleText1::
-	text "קסם צעירה ממני,"
+	text "סברינה צעירה ממני,"
 	line "אבל אני מכבדת"
 	cont "אותה!"
 	done
@@ -122,7 +122,7 @@ _SaffronGymAfterBattleText1::
 	line "החזק ינצח!"
 
 	para "אם המטרה שלך"
-	line "היא להביס את קסם,"
+	line "היא להביס את סברינה,"
 	cont "התמקד בניצחון!"
 	done
 
@@ -174,7 +174,7 @@ _SaffronGymEndBattleText4::
 	prompt
 
 _SaffronGymAfterBattleText4::
-	text "קסם בדיוק חיסלה"
+	text "סברינה בדיוק חיסלה"
 	line "את מאסטר הקארטה"
 	cont "מהמכון שליד!"
 	done
@@ -196,7 +196,7 @@ _SaffronGymAfterBattleText5::
 	done
 
 _SaffronGymBattleText6::
-	text "קסם אמנם צעירה,"
+	text "סברינה אמנם צעירה,"
 	line "אבל היא מנהיגת"
 	cont "המכון!"
 
@@ -226,7 +226,7 @@ _SaffronGymBattleText7::
 	line "בבעלות האוב שבו!"
 
 	para "אתה משתוקק לפגוש"
-	line "את קסם! אני חשה"
+	line "את סברינה! אני חשה"
 	cont "את זה!"
 	done
 

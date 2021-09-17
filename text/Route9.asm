@@ -151,6 +151,6 @@ _Route9AfterBattleText9::
 
 _Route9Text11::
 	text "דרך 9"
-	line "עיר הטורקיז -"
+	line "העיר סרולין -"
 	cont "מנהרת הסלע"
 	done

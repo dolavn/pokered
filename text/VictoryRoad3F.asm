@@ -9,7 +9,7 @@ _VictoryRoad3EndBattleText2::
 	prompt
 
 _VictoryRoad3AfterBattleText2::
-	text "הבסת את אלפרון"
+	text "הבסת את ג'ובאני"
 	line "מצוות רוקט?"
 	done
 

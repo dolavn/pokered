@@ -8,7 +8,7 @@ _LavenderHouse1Text_1d8d6::
 	text "מר דרדר התפלל בסתר"
 	line "בלילות לעילוי"
 	cont "נשמתה של אמא של"
-	cont "רשרש."
+	cont "קיובון."
 	done
 
 _LavenderHouse1Text_1d8f4::
@@ -33,7 +33,7 @@ _LavenderHouse1Text3::
 	text_end
 
 _LavenderHouse1Text4::
-	text "חודנית: גאעהו!@"
+	text "נידורינה: גאעהו!@"
 	text_end
 
 _LavenderHouse1Text_1d94c::

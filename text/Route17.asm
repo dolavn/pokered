@@ -59,7 +59,7 @@ _Route17AfterBattleText4::
 	done
 
 _Route17BattleText5::
-	text "תן לחשמלמל"
+	text "תן לוולטרוב"
 	line "לחשמל אותך!"
 	done
 
@@ -68,7 +68,7 @@ _Route17EndBattleText5::
 	prompt
 
 _Route17AfterBattleText5::
-	text "השגתי את החשמלמל"
+	text "השגתי את הוולטרוב"
 	line "שלי בתחנת הכוח"
 	cont "הנטושה."
 	done

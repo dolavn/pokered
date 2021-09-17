@@ -2,7 +2,7 @@ _LoreleiBeforeBattleText::
 	text "ברוך הבא לליגת"
 	line "ה#ימון!"
 
-	para "אני אירנה"
+	para "אני לורליי"
 	line "מהרביעיה העילית!"
 
 	para "אין טוב ממני"

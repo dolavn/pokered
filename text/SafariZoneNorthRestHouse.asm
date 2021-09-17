@@ -17,11 +17,11 @@ _SafariZoneRestHouse4Text2::
 	done
 
 _SafariZoneRestHouse4Text3::
-	text "הפאתו שלי התפתח"
-	line "לנורידן!"
+	text "האיבי שלי התפתח"
+	line "לפלריאון!"
 
-	para "אבל הפאתו של"
+	para "אבל האיבי של"
 	line "חבר שלי התפתח"
-	cont "לאדידן!"
+	cont "לוויפוריאן!"
 	cont "מעניין למה?"
 	done

@@ -10,8 +10,8 @@ _MtMoonPokecenterText1::
 _MtMoonPokecenterText3::
 	text "צוות רוקט"
 	line "תוקף את"
-	cont "אזרחי עיר"
-	cont "הטורקיז..."
+	cont "אזרחי העיר"
+	cont "סרולין..."
 
 	para "צוות רוקט"
 	line "תמיד בכותרות!" 
@@ -23,7 +23,7 @@ _MagikarpSalesmanText1::
 	cont "נהדרת בשבילך!"
 
 	para "אני אתן לך"
-	line "קסמנון נהדר"
+	line "מג'יקארפ נהדר"
 	cont "רק ב 005¥!"
 	cont "מה אתה אומר?"
 	done

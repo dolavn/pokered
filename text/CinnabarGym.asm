@@ -1,7 +1,7 @@
 _BlaineBattleText::
 	text "אה!"
 
-	para "אני להב! אני"
+	para "אני בליין! אני"
 	line "המנהיג של"
 	cont "מכון הצנובר!"
 
@@ -61,8 +61,8 @@ _TM38ExplanationText::
 	line "את המתקפה הזו!"
 
 	para "היא תתאים נהדר"
-	line "לחזיזיקית או"
-	cont "לסיחום!"
+	line "לצ'רמיליון או"
+	cont "לפוניטה!"
 	done
 
 _TM38NoRoomText::
@@ -143,7 +143,7 @@ _CinnabarGymText_75a08::
 	done
 
 _CinnabarGymText_75a33::
-	text "אני יודע למה להב"
+	text "אני יודע למה בליין"
 	line "נהפך למאמן!"
 	done
 
@@ -152,13 +152,13 @@ _CinnabarGymText_75a38::
 	prompt
 
 _CinnabarGymText_75a3d::
-	text "כשלהב היה אבוד"
+	text "כשבליין היה אבוד"
 	line "בהרים, #ימון"
 	cont "ציפור אש נגלתה"
 	cont "בפניו."
 
 	para "האור שלה הראה"
-	line "ללהב את דרכו"
+	line "לבליין את דרכו"
 	cont "החדשה!"
 	done
 
@@ -176,7 +176,7 @@ _CinnabarGymText_75a6d::
 _CinnabarGymText_75a72::
 	text "מעריצי #ימוני אש"
 	line "כמונו אוהבים את"
-	cont "סיחום ותשעלים!"
+	cont "פוניטה וניינטיילז!"
 	done
 
 _CinnabarGymText_75a9d::

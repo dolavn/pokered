@@ -97,7 +97,7 @@ _Route16Text7::
 	done
 
 _Route16Text10::
-	text "שמנמנם התעורר!"
+	text "סנורלקס התעורר!"
 
 	para "הוא תקף בהתקף"
 	line "זעם עצבני!"
@@ -105,7 +105,7 @@ _Route16Text10::
 
 _Route16Text11::
 	text "בפיהוק גדול,"
-	line "שמנמנם שב אל"
+	line "סנורלקס שב אל"
 	cont "ההרים!"
 	done
 

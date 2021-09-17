@@ -14,7 +14,7 @@ _ViridianForestBattleText1::
 
 _ViridianForestEndBattleText1::
 	text "לא!"
-	line "זחי לא טוב"
+	line "קטרפי לא טוב"
 	cont "מספיק!"
 	prompt
 
@@ -90,7 +90,7 @@ _ViridianForestText11::
 	
 	para "אם תיצור קשר דרך"
 	line "המחשב עם פרופ'"
-	cont "אלון, הוא ייתן לך"
+	cont "אוק, הוא ייתן לך"
 	cont "ציון על ה#ידע"
 	cont "שלך!"
 	done
@@ -120,6 +120,6 @@ _ViridianForestText14::
 	text "יציאה"
 	line "מיער ירוק-העד"
 	cont "בהמשך הדרך:"
-	cont "עיר הכספית"
+	cont "העיר פיוטר"
 	done
 

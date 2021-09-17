@@ -135,20 +135,20 @@ _CeruleanCityText6::
 	done
 
 _CeruleanCityText_19730::
-	text "אוקיי! אחלאט!"
+	text "אוקיי! סלווברו!"
 	line "השתמש בבום על-"
 	cont "קולי!"
-	cont "קדימה, אחלאט,"
+	cont "קדימה, סלווברו,"
 	cont "תתרכז!"
 	done
 
 _CeruleanCityText_19735::
-	text "אחלאט, תן מכה!"
+	text "סלווברו, תן מכה!"
 	line "לא! שוב פספסת!"
 	done
 
 _CeruleanCityText_1973a::
-	text "אחלאט, נסיגה!"
+	text "סלווברו, נסיגה!"
 	line "לא! זה לא מה"
 	cont "שהתכוונתי!"
 
@@ -162,20 +162,20 @@ _CeruleanCityText_1973a::
 	done
 
 _CeruleanCityText_1976f::
-	text "אחלאט מנמנם..."
+	text "סלווברו מנמנם..."
 	done
 
 _CeruleanCityText_19774::
-	text "אחלאט מתעצל..."
+	text "סלווברו מתעצל..."
 	done
 
 _CeruleanCityText_19779::
-	text "אחלאט הפנה את"
+	text "סלווברו הפנה את"
 	line "הגב..."
 	done
 
 _CeruleanCityText_1977e::
-	text "אחלאט התעלם"
+	text "סלווברו התעלם"
 	line "מהפקודה..."
 	done
 
@@ -190,7 +190,7 @@ _CeruleanCityText9::
 
 _CeruleanCityText10::
 	text "זו היא מערת"
-	line "הטורקיז! בפנים"
+	line "סרולין! בפנים"
 	cont "חיים #ימונים"
 	cont "חזקים להחריד!"
 
@@ -201,7 +201,7 @@ _CeruleanCityText10::
 	done
 
 _CeruleanCityText12::
-	text "עיר הטורקיז"
+	text "העיר סרולין"
 	line "אפופה בהילה"
 	cont "כחולה ומסתורית"
 	done
@@ -221,9 +221,9 @@ _CeruleanCityText16::
 	done
 
 _CeruleanCityText17::
-	text "עיר הטורקיז"
+	text "העיר סרולין"
 	line "מכון ה#ימון"
-	cont "מנהיגה: טל"
+	cont "מנהיגה: מיסטי"
 
 	para "בת הים הנערית!"
 	done

@@ -1,12 +1,12 @@
 _LavenderHouse2Text1::
-	text "רשרש: קיארווו!@"
+	text "קיובון: קיארווו!@"
 	text_end
 
 _LavenderHouse2Text_1d9dc::
 	text "אני שונאת את"
 	line "צוות רוקט!"
 
-	para "רשרש המסכן..."
+	para "קיובון המסכן..."
 
 	para "אמא שלו נהרגה "
 	line "כשהיא ניסתה"

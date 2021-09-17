@@ -2,7 +2,7 @@ _VermilionCityText1::
 	text "אנחנו נזהרים"
 	line "מזיהום אוויר!"
 
-	para "שמענו שטנפאי מתרבה"
+	para "שמענו שגריימר מתרבה"
 	line "כשהוא בא במגע עם"
 	cont "רפש מזוהם!"
 	done
@@ -65,13 +65,13 @@ _VermilionCityText4::
 	done
 
 _VermilionCityText5::
-	text "גברכה: גואו!"
+	text "מאצ'ופ: גואו!"
 	line "גוגוגו!@"
 	text_end
 
 _VermilionCityText14::
 	text_start
-	para "גברכה רוקע את"
+	para "מאצ'ופ רוקע את"
 	line "האדמה ברגליו כדי"
 	cont "לשטח אותה."
 	done
@@ -116,7 +116,7 @@ _VermilionCityText11::
 _VermilionCityText12::
 	text "עיר הארגמן"
 	line "מכון ה#ימון"
-	cont "מנהיג: סרן ברק"
+	cont "מנהיג: סגן סרג'"
 
 	para "האמריקאי המחשמל!"
 	done

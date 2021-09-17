@@ -1,12 +1,12 @@
 _ViridianForestEntranceText1::
 	text "אתה הולך"
-	line "ליער ירוק-עד?"
+	line "ליער ווירידיאן?"
 	cont "תיזהר, היער הזה"
 	cont "הוא ממש מבוך!"
 	done
 
 _ViridianForestEntranceText2::
-	text "עכברסס אולי"
+	text "רטטה אולי"
 	line "קטן, אבל הנשיכה"
 	cont "שלו כל כך כואבת!"
 	cont "חטפת אחת?"

@@ -40,20 +40,20 @@ _CeladonMart3Text3::
 	text "יאללה!"
 
 	para "החבר שלי מוכן"
-	line "להחליף את הכיסבל"
-	cont "שלו בעד המחצץ"
+	line "להחליף את הקנגסקן"
+	cont "שלו בעד הגרבלר"
 	cont "שלי!"
 	done
 
 _CeladonMart3Text4::
-	text "בוא אלי, מחצץ!"
+	text "בוא אלי, גרבלר!"
 
 	para "אני אוהבת מחצצים!"
 	line "אני אוסף אותם!"
 
 	para "רגע, מה?"
 
-	para "מחצץ הפך ל#ימון"
+	para "גרבלר הפך ל#ימון"
 	line "אחר!"
 	done
 

@@ -9,7 +9,7 @@ _RockTunnel1EndBattleText1::
 	prompt
 
 _RockTunnel1AfterBattleText1::
-	text "היזהר מנחשוהם!"
+	text "היזהר מאוניקס!"
 	line "הוא יכול למחוץ"
 	cont "אותך!"
 	done
@@ -62,7 +62,7 @@ _RockTunnel1EndBattleText4::
 
 _RockTunnel1AfterBattleText4::
 	text "טוב נו, אני"
-	line "אתפוס אצלף בדרך!"
+	line "אתפוס זובאט בדרך!"
 	done
 
 _RockTunnel1BattleText5::
@@ -77,7 +77,7 @@ _RockTunnel1EndBattleText5::
 	prompt
 
 _RockTunnel1AfterBattleText5::
-	text "ראיתי גברכה"
+	text "ראיתי מאצ'ופ"
 	line "במערה הזו!"
 	done
 
@@ -115,6 +115,6 @@ _RockTunnel1AfterBattleText7::
 
 _RockTunnel1Text8::
 	text "מנהרת הסלע"
-	line "עיר הטורקיז -"
+	line "העיר סרולין -"
 	cont "עיר הלבנדר"
 	done

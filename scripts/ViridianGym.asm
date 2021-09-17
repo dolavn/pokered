@@ -11,10 +11,10 @@ ViridianGym_Script:
 	ret
 
 .CityName:
-	db "עיר הברקת@"
+	db "העיר ווירידיאן@"
 
 .LeaderName:
-	db "אלפרון@"
+	db "ג'ובאני@"
 
 ViridianGymScript_748d6:
 	xor a

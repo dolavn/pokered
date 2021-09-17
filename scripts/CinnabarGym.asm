@@ -27,7 +27,7 @@ CinnabarGymScript_75759:
 	db "אי הצנובר@"
 
 .LeaderName:
-	db "להב@"
+	db "בליין@"
 
 CinnabarGymScript_75792:
 	xor a

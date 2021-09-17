@@ -23,7 +23,7 @@ _Route19EndBattleText2::
 	prompt
 
 _Route19AfterBattleText2::
-	text "היזהר מקרשוש!"
+	text "היזהר מטנטקול!"
 	done
 
 _Route19BattleText3::
@@ -144,7 +144,7 @@ _Route19EndBattleText10::
 	prompt
 
 _Route19AfterBattleText10::
-	text "תכוגית כל כך"
+	text "לפרס כל כך"
 	line "גדול, הוא בוודאי"
 	cont "שומר עליך יבש"
 	cont "במים."

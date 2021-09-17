@@ -19,7 +19,7 @@ _Route21BattleText2::
 
 _Route21EndBattleText2::
 	text "אוף"
-	line "קסמנון!"
+	line "מג'יקארפ!"
 	prompt
 
 _Route21AfterBattleText2::

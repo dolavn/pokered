@@ -93,7 +93,7 @@ _CeladonGameCornerText_48dca::
 
 	para "בראש מכון האביב"
 	line "עומדת המנהיגה"
-	cont "איריס!"
+	cont "אריקה!"
 	cont "היא משתמשת"
 	cont "ב#ימונים מסוג"
 	cont "דשא!"

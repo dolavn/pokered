@@ -1,10 +1,10 @@
 _OakAppearsText::
-	text "אלון: היי! חכה"
+	text "אוק: היי! חכה"
 	line "רגע! אל תלך!@"
 	text_end
 
 _OakWalksUpText::
-	text "אלון: זה מסוכן!"
+	text "אוק: זה מסוכן!"
 	line "#ימונים פראים"
 	cont "חיים בדשא!"
 
@@ -37,7 +37,7 @@ _PalletTownText3::
 
 _PalletTownText4::
 	text "מעבדת ה#ימון"
-	line "של פרופ' אלון"
+	line "של פרופ' אוק"
 	done
 
 _PalletTownText5::

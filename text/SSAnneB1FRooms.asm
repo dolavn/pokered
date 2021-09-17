@@ -1,5 +1,5 @@
 _SSAnne10Text8::
-	text "גברנק: גואהה!"
+	text "מאצ'וק: גואהה!"
 	line "גוגווה!@"
 	text_end
 
@@ -108,7 +108,7 @@ _SSAnne10AfterBattleText6::
 	done
 
 _SSAnne10Text7::
-	text "ידידי, גברנק,"
+	text "ידידי, מאצ'וק,"
 	line "ממש חזק!"
 
 	para "יש לו כל כך"

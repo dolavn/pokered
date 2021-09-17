@@ -204,7 +204,7 @@ _CeruleanPokecenterGuyText::
 	done
 
 _LavenderPokecenterGuyText::
-	text "רשרשים חובשים"
+	text "קיובונים חובשים"
 	line "גולגלות על הראש,"
 	cont "כן?"
 
@@ -366,8 +366,8 @@ _CinnabarGymQuizIntroText::
 	prompt
 
 _CinnabarQuizQuestionsText1::
-	text "כשזחי מתפתח, הוא"
-	line "הופך לפרפרץ?"
+	text "כשקטרפי מתפתח, הוא"
+	line "הופך לבטרפרי?"
 	done
 
 _CinnabarQuizQuestionsText2::
@@ -377,7 +377,7 @@ _CinnabarQuizQuestionsText2::
 	done
 
 _CinnabarQuizQuestionsText3::
-	text "ראשנע מתפתח"
+	text "פוליוואג מתפתח"
 	line "3 פעמים?"
 	done
 
@@ -465,7 +465,7 @@ _OakLabEmailText::
 	line "ה#ימון"
 	cont "רמת הניל"
 
-	para "נ.ב: פרופ' אלון,"
+	para "נ.ב: פרופ' אוק,"
 	line "בבקשה, בוא לבקר!"
 	cont "..."
 	done
@@ -632,7 +632,7 @@ _AerodactylFossilText::
 	done
 
 _KabutopsFossilText::
-	text "מאובן פרצודה."
+	text "מאובן קאבוטופס."
 	line "#ימון קדום"
 	cont "ונדיר."
 	done
@@ -839,7 +839,7 @@ _PokemonBooksText::
 
 _DiglettSculptureText::
 	text "זה פסל של"
-	line "חפיד."
+	line "דיגלט."
 	done
 
 _ElevatorText::
@@ -1736,12 +1736,12 @@ _GetDexRatedText::
 
 _ClosedOaksPCText::
 	text "החיבור למחשב של"
-	line "פרופ' אלון נסגר.@"
+	line "פרופ' אוק נסגר.@"
 	text_end
 
 _AccessedOaksPCText::
 	text "נכנסת למחשב של"
-	line "פרופ' אלון."
+	line "פרופ' אוק."
 
 	para "נכנסת למערכת ציון"
 	line "ה#ידע."
@@ -1765,7 +1765,7 @@ _OakSpeechText1::
 	line "ברוכים הבאים"
 	cont "לעולם ה#ימון!"
 
-	para "שמי הוא אלון,"
+	para "שמי הוא אוק,"
 	line "אבל כולם קוראים"
 	cont "לי הפרופסור"
 	cont "ל#ימון!"

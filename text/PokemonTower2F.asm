@@ -30,10 +30,10 @@ _PokemonTower2Text_60637::
 _PokemonTower2Text_6063c::
 	text "איך ה#ידע"
 	line "שלך מתקדם, חבר?"
-	cont "בדיוק תפסתי רשרש!"
+	cont "בדיוק תפסתי קיובון!"
 
 	para "עוד לא מצאתי"
-	line "קרקש בוגר!"
+	line "מרוואק בוגר!"
 
 	para "אני בספק אם"
 	line "עוד יש כאלה!"

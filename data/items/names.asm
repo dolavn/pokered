@@ -69,7 +69,7 @@ ItemNames::
 	li "X מהירות"      ; X SPEED
 	li "X מיוחדת"      ; X SPECIAL
 	li "ארנק אסימונים" ; COIN CASE
-	li "חבילה של אלון" ; OAK's PARCEL
+	li "חבילה של אוק" ; OAK's PARCEL
 	li "מאתר חפצים"    ; ITEMFINDER
 	li "משקף סילף"     ; SILPH SCOPE
 	li "חלילית קסם"    ; POKé FLUTE

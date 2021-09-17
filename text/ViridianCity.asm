@@ -34,8 +34,8 @@ _ViridianCityText_19152::
 	done
 
 _ViridianCityText_19157::
-	text "לזחי אין עוקץ,"
-	line "אבל לתולחט יש."
+	text "לקטרפי אין עוקץ,"
+	line "אבל לווידל יש."
 
 	para "כדאי להיזהר ממתקפת"
 	line "עקיצת הרעל שלו!"
@@ -50,10 +50,10 @@ _ViridianCityText_19175::
 
 _ViridianCityText_1917a::
 	text "כשאני הולכת לקניות"
-	line "בעיר הכספית, אני"
+	line "בעיר פיוטר, אני"
 	cont "חייבת לעבור דרך"
 	cont "השביל המתפתל"
-	cont "ביער ירוק-עד."
+	cont "ביער ווירידיאן."
 	done
 
 _ViridianCityText_19191::
@@ -69,7 +69,7 @@ _ViridianCityText_191ca::
 	cont "בשמש."
 
 	para "היה לי חלום"
-	line "על ישנום שאוכל"
+	line "על דרווזי שאוכל"
 	cont "את החלום שלי."
 	cont "מה זה?"
 	cont "מאיפה הגיע המ”מ"
@@ -137,7 +137,7 @@ _ViridianCityText_19219::
 	done
 
 _ViridianCityText8::
-	text "עיר הברקת"
+	text "העיר ווירידיאן"
 	line "גן העדן ירוק-"
 	cont "העד"
 	done
@@ -169,7 +169,7 @@ _ViridianCityText10::
 	done
 
 _ViridianCityText13::
-	text "עיר הברקת"
+	text "העיר ווירידיאן"
 	line "מכון ה#ימון"
 	done
 

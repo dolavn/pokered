@@ -1,5 +1,5 @@
 _CeladonMansion1Text1::
-	text "מיצי: מיאו!@"
+	text "מיאו: מיאו!@"
 	text_end
 
 _CeladonMansion1Text2::
@@ -7,17 +7,17 @@ _CeladonMansion1Text2::
 	line "האהובים שלי"
 	cont "מארחים לי חברה."
 
-	para "מיצי אפילו מביא"
+	para "מיאו אפילו מביא"
 	line "הביתה כסף!"
 	done
 
 _CeladonMansion1Text3::
-	text "חמשדון: פיפ"
+	text "קלפרי: פיפ"
 	line "פיפיפ פיפ!@"
 	text_end
 
 _CeladonMansion1Text4::
-	text "מחטן: קיה"
+	text "נידורן: קיה"
 	line "קיה-הו!@"
 	text_end
 

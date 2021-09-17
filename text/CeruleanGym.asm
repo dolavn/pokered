@@ -72,7 +72,7 @@ _CeruleanGymBattleText1::
 	text "אני מאתגרת מספיק"
 	line "בשבילך!"
 
-	para "טל יכולה לחכות!"
+	para "מיסטי יכולה לחכות!"
 	done
 
 _CeruleanGymEndBattleText1::
@@ -100,7 +100,7 @@ _CeruleanGymEndBattleText2::
 	prompt
 
 _CeruleanGymAfterBattleText2::
-	text "טל רק ממשיכה"
+	text "מיסטי רק ממשיכה"
 	line "להשתפר!"
 
 	para "היא לא תפסיד מול"
@@ -113,7 +113,7 @@ _CeruleanGymText_5c82a::
 
 	para "שמע עצה!"
 
-	para "מנהיגת המכון טל,"
+	para "מנהיגת המכון מיסטי,"
 	line "היא מקצוענית"
 	cont "שמשתמשת רק"
 	cont "ב#ימוני מים!"
@@ -127,7 +127,7 @@ _CeruleanGymText_5c82a::
 	done
 
 _CeruleanGymText_5c82f::
-	text "ניצחת את טל!"
+	text "ניצחת את מיסטי!"
 	line "בול כמו שאמרתי!"
 
 	para "אחי, אתה ואני,"

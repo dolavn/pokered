@@ -24,25 +24,25 @@ TrainerNames::
 	db "צפר@" ; BIRD KEEPER
 	db "מאסטר@" ; BLACKBELT
 	db "יריב1@" ; RIVAL1
-	db "פרופ. אלון@" ; PROF.OAK
+	db "פרופ. אוק@" ; PROF.OAK
 	db "מפקד גליץ'@" ; CHIEF
 	db "מדען@" ; SCIENTIST
-	db "אלפרון@" ; GIOVANNI
+	db "ג'ובאני@" ; GIOVANNI
 	db "רוקט@" ; ROCKET
 	db "מאמן על@" ; COOLTRAINER♂
 	db "מאמנת על@" ; COOLTRAINER♀
-	db "איתן@" ; BRUNO
-	db "צור@" ; BROCK
-	db "טל@" ; MISTY
-	db "סרן ברק@" ; LT.SURGE
-	db "איריס@" ; ERIKA
-	db "צפע@" ; KOGA
-	db "להב@" ; BLAINE
-	db "קסם@" ; SABRINA
+	db "ברונו@" ; BRUNO
+	db "ברוק@" ; BROCK
+	db "מיסטי@" ; MISTY
+	db "סגן סרג'@" ; LT.SURGE
+	db "אריקה@" ; ERIKA
+	db "קוגה@" ; KOGA
+	db "בליין@" ; BLAINE
+	db "סברינה@" ; SABRINA
 	db "אדון@" ; GENTLEMAN
 	db "יריב2@" ; RIVAL2
 	db "יריב3@" ; RIVAL3
-	db "אירנה@" ; LORELEI
+	db "לורליי@" ; LORELEI
 	db "מדיום@" ; CHANNELER
-	db "רוחמה@" ; AGATHA
-	db "אברי@" ; LANCE
+	db "אגתה@" ; AGATHA
+	db "לאנס@" ; LANCE

@@ -1,6 +1,6 @@
 _PewterCityText1::
 	text "האגדה מספרית"
-	line "שחמשדון הן זן"
+	line "שקלפרי הן זן"
 	cont "שמקורו מהירח!"
 
 	para "הן הופיעו אחרי"
@@ -14,8 +14,8 @@ _PewterCityText2::
 
 	para "כולם כאן, כאילו,"
 	line "אספני חרקים וזה."
-	cont "אבל צור ממכון"
-	cont "הכספית ממש חזק"
+	cont "אבל ברוק ממכון"
+	cont "פיוטר ממש חזק"
 	cont "בקטע של אימון!"
 	done
 
@@ -60,7 +60,7 @@ _PewterCityText_19431::
 
 _PewterCityText_1945d::
 	text "אתה מאמן, נכון?"
-	line "צור ישמח לפגוש"
+	line "ברוק ישמח לפגוש"
 	cont "אותך! הוא מחפש"
 	cont "אתגר חדש! בוא"
 	cont "אחרי!"
@@ -69,7 +69,7 @@ _PewterCityText_1945d::
 _PewterCityText14::
 	text "אם קורצת מהחומר"
 	line "הנכון, לך ונסה"
-	cont "להילחם בצור!"
+	cont "להילחם בברוק!"
 	done
 
 _PewterCityText6::
@@ -90,24 +90,24 @@ _PewterCityText7::
 	cont "אם יש בידיכם מידע"
 	cont "שיסייע לתפוס את"
 	cont "הגנבים, צרו קשר"
-	cont "עם משטרת הכספית!"
+	cont "עם משטרת פיוטר!"
 	done
 
 _PewterCityText10::
 	text "מוזיאון המדע"
-	line "עיר הכספית"
+	line "העיר פיוטר"
 	done
 
 _PewterCityText11::
-	text "עיר הכספית"
+	text "העיר פיוטר"
 	line "מכון #ימון"
-	cont "מנהיג: צור"
+	cont "מנהיג: ברוק"
 
 	para "מאמן #ימון קשיח"
 	line "כאבן!"
 	done
 
 _PewterCityText12::
-	text "עיר הכספית"
+	text "העיר פיוטר"
 	line "עיר אפורה כסלע"
 	done

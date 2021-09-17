@@ -1,5 +1,5 @@
 _BrunoBeforeBattleText::
-	text "אני איתן מהרביעיה"
+	text "אני ברונו מהרביעיה"
 	line "העילית!"
 
 	para "בעזרת אימונים"

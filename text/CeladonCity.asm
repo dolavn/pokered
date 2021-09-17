@@ -1,5 +1,5 @@
 _CeladonCityText1::
-	text "תפסתי את המשתעשן"
+	text "תפסתי את הקופינג"
 	line "שלי באי הצנובר!"
 
 	para "הוא נחמד, אבל הוא"
@@ -57,7 +57,7 @@ _TM41ExplanationText::
 	line "יכולה להשתמש בו!"
 
 	para "ה#ימונית הזו היא"
-	line "בת-מזל!"
+	line "צ'נסי!"
 	done
 
 _TM41NoRoomText::
@@ -70,8 +70,8 @@ _CeladonCityText6::
 	line "ראשזעם!"
 
 	para "הוא היה פעם"
-	line "ראשבוב! הוא התפתח"
-	cont "לראשזעם כשהשתמשתי"
+	line "פוליווירל! הוא התפתח"
+	cont "לפוליוורת' כשהשתמשתי"
 	cont "באבן מים עליו!"
 	done
 
@@ -115,7 +115,7 @@ _CeladonCityText11::
 _CeladonCityText13::
 	text "עיר האביב"
 	line "מכון ה#ימון"
-	cont "מנהיגה: איריס"
+	cont "מנהיגה: אריקה"
 
 	para "הנסיכה אוהבת"
 	line "הטבע!"

@@ -6,7 +6,7 @@ _Route1ViridianMartSampleText::
 	line "אתה מוזמן לבוא"
 	cont "ולהתרשם בעצמך"
 	cont "מהסניף בעיר"
-	cont "הברקת!"
+	cont "ווירידיאן!"
 
 	para "אני אפילו אתן"
 	line "לך דוגמית!"
@@ -46,5 +46,5 @@ _Route1Text2::
 _Route1Text3::
 	text "דרך 1"
 	line "העיירה פאלט -"
-	cont "עיר הברקת"
+	cont "העיר ווירידיאן"
 	done

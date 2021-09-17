@@ -20,7 +20,7 @@ CeladonGym_Script:
 	db "עיר האביב@"
 
 .LeaderName:
-	db "איריס@"
+	db "אריקה@"
 
 CeladonGymText_48943:
 	xor a

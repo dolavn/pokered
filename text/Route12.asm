@@ -4,14 +4,14 @@ _Route12Text1::
 	done
 
 _Route12Text13::
-	text "שמנמנם התעורר!"
+	text "סנורלקס התעורר!"
 
 	para "הוא תקף בזעף"
 	line "ממורמר!"
 	done
 
 _Route12Text14::
-	text "שמנמנם נרגע!"
+	text "סנורלקס נרגע!"
 	line "בעודו מפהק"
 	cont "פיהוק ענק הוא"
 	cont "חזר להרים!"
@@ -124,7 +124,7 @@ _Route12EndBattleText7::
 	prompt
 
 _Route12AfterBattleText7::
-	text "אני תופס קסמנון"
+	text "אני תופס מג'יקארפ"
 	line "כל הזמן, אבל"
 	cont "הם ממש חלשים!"
 	done

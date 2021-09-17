@@ -1,5 +1,5 @@
 _HallofFameRoomText1::
-	text "אלון: א-המ!"
+	text "אוק: א-המ!"
 	line "ברכותיי!"
 	cont "<PLAYER>!"
 

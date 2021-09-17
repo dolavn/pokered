@@ -22,15 +22,15 @@ _SilphCo5EndBattleText5::
 _SilphCo5AfterBattleText5::
 	text "זה מזכיר לי."
 
-	para "משתעשן מתפתח"
-	line "למשתעשניים!"
+	para "קופינג מתפתח"
+	line "לוויזינג!"
 	done
 
 _SilphCo5Text9::
 	text "זה דוח #ימון!"
 
 	para "מעבדת ה#ימון"
-	line "יצרנו את מצולען,"
+	line "יצרנו את פוריגון,"
 	cont "#ימון המציאות"
 	cont "המדומה הראשון."
 	done

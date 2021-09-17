@@ -74,26 +74,26 @@ MoveNames::
 	li "יניקת על"    ; MEGA DRAIN
 	li "זרע יניקה"   ; LEECH SEED
 	li "צמיחה"       ; GROWTH
-	li "עלי להב"     ; RAZOR LEAF
+	li "עלי תער"     ; RAZOR LEAF
 	li "קרן שמש"     ; SOLARBEAM
 	li "אבקת רעל"    ; POISONPOWDER
 	li "נבג שיתוק"   ; STUN SPORE
 	li "אבקת שינה"   ; SLEEP POWDER
 	li "מחול אביב"   ; PETAL DANCE
 	li "ירי קורים"   ; STRING SHOT
-	li "זעםדרקוני"   ; DRAGON RAGE
+	li "זעם הדרקון"  ; DRAGON RAGE
 	li "אשמערבולת"   ; FIRE SPIN
 	li "שוק חשמלי"   ; THUNDERSHOCK
 	li "חזיז ורעם"   ; THUNDERBOLT
 	li "גל רעם"      ; THUNDER WAVE
 	li "רעם"         ; THUNDER
 	li "שיגור סלע"   ; ROCK THROW
-	li "רעידתאדמה"   ; EARTHQUAKE
+	li "רעידת אדמה"  ; EARTHQUAKE
 	li "בולען"       ; FISSURE
 	li "התחפרות"     ; DIG
 	li "הרעלה"       ; TOXIC
-	li "אנדרלמוסיה"   ; CONFUSION
-	li "אשליה"       ; PSYCHIC
+	li "בלבול"       ; CONFUSION
+	li "על-חושי"     ; PSYCHIC
 	li "היפנוזה"     ; HYPNOSIS
 	li "מדיטציה"     ; MEDITATE
 	li "זריזות"      ; AGILITY

@@ -27,19 +27,19 @@ _OaksLabText39::
 _OaksLabCharmanderText::
 	text "אז אתה רוצה את"
 	line "#ימון האש,"
-	cont "גחומט?" 
+	cont "צ'רמאנדר?" 
 	done
 
 _OaksLabSquirtleText::
 	text "אז אתה רוצה את"
 	line "#ימון המים,"
-	cont "שפריצב?" 
+	cont "סקווירטל?" 
 	done
 
 _OaksLabBulbasaurText::
 	text "אז אתה רוצה את"
 	line "#ימון הדשא,"
-	cont "מוזרע?" 
+	cont "בלבאזור?" 
 	done
 
 _OaksLabMonEnergeticText::
@@ -56,17 +56,17 @@ _OaksLabReceivedMonText::
 
 _OaksLabLastMonText::
 	text "זה ה#ימון האחרון"
-	line "של פרופ' אלון!"
+	line "של פרופ' אוק!"
 	done
 
 _OaksLabText_1d2f0::
-	text "אלון: אז <PLAYER>,"
+	text "אוק: אז <PLAYER>,"
 	line "איזה #ימון אתה"
 	cont "רוצה?"
 	done
 
 _OaksLabText_1d2f5::
-	text "אלון: אם #ימון"
+	text "אוק: אם #ימון"
 	line "פראי מופיע,"
 	cont "אתה יכול להשתמש"
 	cont "ב#ימון שלך כדי"
@@ -74,13 +74,13 @@ _OaksLabText_1d2f5::
 	done
 
 _OaksLabText_1d2fa::
-	text "אלון: <PLAYER>,"
+	text "אוק: <PLAYER>,"
 	line "חנך את ה#ימון"
 	cont "הצעיר שלך בקרבות!"
 	done
 
 _OaksLabDeliverParcelText1::
-	text "אלון: אה, <PLAYER>!"
+	text "אוק: אה, <PLAYER>!"
 
 	para "מה שלום ה#ימון"
 	line "שנתתי לך?"
@@ -96,7 +96,7 @@ _OaksLabDeliverParcelText1::
 
 	para "<PLAYER> מסר"
 	line "את החבילה של"
-	cont "אלון.@"
+	cont "אוק.@"
 	text_end
 
 _OaksLabDeliverParcelText2::
@@ -113,7 +113,7 @@ _OaksLabAroundWorldText::
 	done
 
 _OaksLabGivePokeballsText1::
-	text "אלון: אם אתה רוצה"
+	text "אוק: אם אתה רוצה"
 	line "לדעת פרטים"
 	cont "מדויקים על"
 	cont "#ימון, עליך"
@@ -150,7 +150,7 @@ _OaksLabGivePokeballsText2::
 	done
 
 _OaksLabPleaseVisitText::
-	text "אלון: בוא לבקר"
+	text "אוק: בוא לבקר"
 	line "מדי פעם."
 
 	para "אשמח לראות את"
@@ -159,7 +159,7 @@ _OaksLabPleaseVisitText::
 	done
 
 _OaksLabText_1d31d::
-	text "אלון: טוב לראות"
+	text "אוק: טוב לראות"
 	line "אותך! איך מתקדם"
 	cont "ה#ידע שלך?"
 	cont "אפשר להעיף מבט?"
@@ -177,7 +177,7 @@ _OaksLabText8::
 	done
 
 _OaksLabText_1d340::
-	text "פרופ' אלון הוא"
+	text "פרופ' אוק הוא"
 	line "ה-מומחה בכל מה"
 	cont "שנוגע ל#ימון!"
 
@@ -193,7 +193,7 @@ _OaksLabRivalWaitingText::
 	done
 
 _OaksLabChooseMonText::
-	text "אלון: <RIVAL>?"
+	text "אוק: <RIVAL>?"
 	line "תן לי להיזכר..."
 
 	para "אה, נכון, קראתי"
@@ -224,13 +224,13 @@ _OaksLabRivalInterjectionText::
 	done
 
 _OaksLabBePatientText::
-	text "אלון: סבלנות,"
+	text "אוק: סבלנות,"
 	line "<RIVAL>! גם אתה"
 	cont "תקבל אחד!"
 	done
 
 _OaksLabLeavingText::
-	text "אלון: היי! עדיין"
+	text "אוק: היי! עדיין"
 	line "לא בחרת!"
 	done
 
@@ -290,7 +290,7 @@ _OaksLabText22::
 	done
 
 _OaksLabText23::
-	text "אלון: יש לי בקשה"
+	text "אוק: יש לי בקשה"
 	line "עבור שניכם."
 	done
 
@@ -311,12 +311,12 @@ _OaksLabText24::
 	done
 
 _OaksLabText25::
-	text "אלון: <PLAYER>"
+	text "אוק: <PLAYER>"
 	line "ו<RIVAL>! קחו"
 	cont "לכם אחד!"
 
 	para "<PLAYER> קיבל"
-	line "מאלון את ה#ידע!@"
+	line "מאוק את ה#ידע!@"
 	text_end
 
 _OaksLabText26::
@@ -363,7 +363,7 @@ _OaksLabText27::
 
 _OaksLabText_1d405::
 	text "אני העוזר של"
-	line "פרופ' אלון."
+	line "פרופ' אוק."
 	cont "אני חוקר"
 	cont "#ימונים."
 	done
@@ -381,7 +381,7 @@ _OaksLabText_441cc::
 	text " #ימונים"
 	line "נתפסו"
 
-	para "פרופ' אלון"
+	para "פרופ' אוק"
 	line "אומר:"
 	prompt
 

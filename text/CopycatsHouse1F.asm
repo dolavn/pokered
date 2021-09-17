@@ -15,7 +15,7 @@ _CopycatsHouse1FText2::
 	done
 
 _CopycatsHouse1FText3::
-	text "בת-מזל: בת!"
-	line "מזלל!@"
+	text "צ'נסי: צ'נ!"
+	line "סייי!@"
 	text_end
 

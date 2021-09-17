@@ -88,7 +88,7 @@ DisplayPCMainMenu::
 SomeonesPCText:   db "המחשב של ?@"
 BillsPCText:      db "המחשב של הדר@"
 PlayersPCText:    db "המחשב של @"
-OaksPCText:       db "המחשב של אלון@"
+OaksPCText:       db "המחשב של אוק@"
 PKMNLeaguePCText: db "היכל התהילה@"
 LogOffPCText:     db "כיבוי@"
 

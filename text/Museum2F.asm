@@ -21,7 +21,7 @@ _Museum2FText3::
 	done
 
 _Museum2FText4::
-	text "אני רוצה צויצוץ!"
+	text "אני רוצה פיקאצ'ו!"
 	line "הוא כל כך מתוק!"
 
 	para "ביקשתי מאבא שלי"
@@ -29,7 +29,7 @@ _Museum2FText4::
 	done
 
 _Museum2FText5::
-	text "כן, צויצוץ"
+	text "כן, פיקאצ'ו"
 	line "בקרוב, אני מבטיח!"
 	done
 

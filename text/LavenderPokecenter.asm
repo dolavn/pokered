@@ -6,7 +6,7 @@ _LavenderPokecenterText2::
 
 _LavenderPokecenterText3::
 	text "ראיתי את אמו של"
-	line "רשרש מתה בנסיון"
+	line "קיובון מתה בנסיון"
 	cont "לברוח מצוות"
 	cont "רוקט."
 	done

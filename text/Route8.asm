@@ -41,14 +41,14 @@ _Route8EndBattleText3::
 	prompt
 
 _Route8AfterBattleText3::
-	text "שלח את טנפאי"
+	text "שלח את גריימר"
 	line "ראשון.. ואז.."
 	cont "ו.. ואז.."
 	done
 
 _Route8BattleText4::
 	text "אני אוהבת את"
-	line "ה#ימון מחטן,"
+	line "ה#ימון נידורן,"
 	cont "אז אני אוספת"
 	cont "כאלה!"
 	done
@@ -83,7 +83,7 @@ _Route8AfterBattleText5::
 	done
 
 _Route8BattleText6::
-	text "מיצי כל כך מתוק!"
+	text "מיאו כל כך מתוק!"
 	line "מיאו, מיאו, מיאו!"
 	done
 
@@ -92,8 +92,8 @@ _Route8EndBattleText6::
 	prompt
 
 _Route8AfterBattleText6::
-	text "אני חושבת שיונדי"
-	line "ועכברסס גם"
+	text "אני חושבת שפידג'י"
+	line "ורטטה גם"
 	cont "חמודים!"
 	done
 
@@ -143,11 +143,11 @@ _Route8EndBattleText9::
 	text "דיי!"
 
 	para "אל תהיה כזה מרושע"
-	line "לחמשדון שלי!"
+	line "לקלפרי שלי!"
 	prompt
 
 _Route8AfterBattleText9::
-	text "שמעתי שחמשדון"
+	text "שמעתי שקלפרי"
 	line "מתפתחת כשהיא"
 	cont "נחשפת לאבן ירח!"
 	done

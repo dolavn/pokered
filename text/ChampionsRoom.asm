@@ -86,11 +86,11 @@ _GaryText_76103::
 	done
 
 _GaryText2::
-	text "אלון: <PLAYER>!"
+	text "אוק: <PLAYER>!"
 	done
 
 _GaryText_76120::
-	text "אלון: אז, ניצחת!"
+	text "אוק: אז, ניצחת!"
 	line "ברכותי!"
 	cont "אתה אלוף ליגת"
 	cont "ה#ימון החדש!"
@@ -107,7 +107,7 @@ _GaryText_76120::
 	done
 
 _GaryText_76125::
-	text "אלון: <RIVAL>! אני"
+	text "אוק: <RIVAL>! אני"
 	line "מאוכזב!"
 
 	para "כששמעתי שהבסת את"
@@ -132,7 +132,7 @@ _GaryText_76125::
 	done
 
 _GaryText_7612a::
-	text "אלון: <PLAYER>!"
+	text "אוק: <PLAYER>!"
 
 	para "אתה מבין שהניצחון"
 	line "שלך קרה לא רק"

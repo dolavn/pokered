@@ -55,7 +55,7 @@ _SaffronCityText10::
 
 _SaffronCityText11::
 	text "עפתי לפה על"
-	line "הסילונה שלי"
+	line "הפידג'ט שלי"
 	cont "כשקראתי על סילף."
 
 	para "זה כבר נגמר?"
@@ -64,7 +64,7 @@ _SaffronCityText11::
 	done
 
 _SaffronCityText12::
-	text "סילונה: בי ביביי!@"
+	text "פידג'ט: בי ביביי!@"
 	text_end
 
 _SaffronCityText13::
@@ -102,7 +102,7 @@ _SaffronCityText17::
 _SaffronCityText18::
 	text "עיר הזעפרן"
 	line "מכון #ימונים"
-	cont "מנהלת: קסם"
+	cont "מנהלת: סברינה"
 
 	para "המאסטר של"
 	line "#ימוני על-חושי!"

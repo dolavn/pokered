@@ -1,13 +1,13 @@
 _VermilionHouse1Text1::
 	text "אני מכין את"
-	line "היונדי שלי להעביר"
+	line "הפידג'י שלי להעביר"
 	cont "עבורי מכתב לעיר"
 	cont "הזעפרן, צפונה"
 	cont "מכאן!"
 	done
 
 _VermilionHouse1Text2::
-	text "יונדי: קורוקווו!@"
+	text "פידג'י: קורוקווו!@"
 	text_end
 
 _VermilionHouse1Text3::

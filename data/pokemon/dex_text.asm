@@ -69,8 +69,8 @@ _NidokingDexEntry::
 	dex
 
 _SlowbroDexEntry::
-	text "הקונכך שנצמד"
-	next "לזנבו של כיסלאט"
+	text "השלדר שנצמד"
+	next "לזנבו של סלוופוק"
 	next "לכאורה ניזון"
 
 	page "משאריות האוכל"
@@ -93,7 +93,7 @@ _ExeggutorDexEntry::
 	next "מראשיו ינשור"
 
 	page "וימשיך להתקיים"
-	next "כביצמודות"
+	next "כאגזקיוט"
 	dex
 
 _LickitungDexEntry::
@@ -873,8 +873,8 @@ _EkansDexEntry::
 	next "אוכל ביצי"
 	next "ציפורים, למשל"
 	
-	page "של יונדי"
-	next "ושל כידרור,"
+	page "של פידג'י"
+	next "ושל ספירו,"
 	next "בשלמותן"
 	dex
 	
@@ -958,7 +958,7 @@ _PrimeapeDexEntry::
 	
 _DugtrioDexEntry::	
 	text "חבורה של שלושה"
-	next "חפידים. הוא"
+	next "דיגלטים. הוא"
 	next "מעורר רעידות"
 	
 	page "אדמה כבירות על"
@@ -1135,9 +1135,9 @@ _WeezingDexEntry::
 	next "גזים רעילים"
 	next "נפגשים, שני"
 	
-	page "משתעשנים"
+	page "קופינגים"
 	next "יכולים להתמזג"
-	next "למשתעשניים"
+	next "לוויזינג"
 	dex
 	
 _PersianDexEntry::	
@@ -1204,7 +1204,7 @@ _PidgeotDexEntry::
 	
 	page "כדי לתפוס טרף"
 	next "חסר זהירות כמו"
-	next "קסמנון"
+	next "מג'יקארפ"
 	dex
 	
 _StarmieDexEntry::	

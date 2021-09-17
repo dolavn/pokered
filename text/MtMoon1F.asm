@@ -95,7 +95,7 @@ _MtMoon1AfterBattleText7::
 _MtMoon1BattleText8::
 	text "עבור דרך המערה"
 	line "כדי להגיע"
-	cont "לעיר הטורקיז!"
+	cont "לעיר סרולין!"
 	done
 
 _MtMoon1EndBattleText8::
@@ -104,13 +104,13 @@ _MtMoon1EndBattleText8::
 	prompt
 
 _MtMoon1AfterBattleText8::
-	text "אצלף הוא #ימון"
+	text "זובאט הוא #ימון"
 	line "קשוח! אבל הוא"
 	cont "יכול להיות שימושי"
 	cont "אם תתפוס אחד."
 	done
 
 _MtMoon1Text14::
-	text "היזהר! האצלף"
+	text "היזהר! הזובאט"
 	line "מוצץ דם!"
 	done
